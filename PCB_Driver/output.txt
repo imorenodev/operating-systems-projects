@@ -1,0 +1,41 @@
+Contents of LinkedList:
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 4	Wait: 0
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 1	Wait: 0
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 18	Wait: 0
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 0	CPU max: 75	Wait: 0
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 0	CPU max: 43	Wait: 0
+state: Ready	ID: 6	K: 	priority: 0	CPU used: 0	CPU max: 67	Wait: 0
+state: Ready	ID: 7	K: 	priority: 0	CPU used: 0	CPU max: 22	Wait: 0
+state: Ready	ID: 8	K: 	priority: 0	CPU used: 0	CPU max: 9	Wait: 0
+state: Ready	ID: 9	K: 	priority: 0	CPU used: 0	CPU max: 3	Wait: 0
+state: Ready	ID: 10	K: 	priority: 0	CPU used: 0	CPU max: 69	Wait: 0
+
+Iterate through LinkedList:
+state: Running	ID: 1	K: 	priority: 0	CPU used: 17	CPU max: 4	Wait: 0
+state: Running	ID: 2	K: 	priority: 0	CPU used: 12	CPU max: 1	Wait: 0
+state: Running	ID: 3	K: 	priority: 0	CPU used: 18	CPU max: 18	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 14	CPU max: 75	Wait: 0
+state: Running	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 43	Wait: 0
+state: Running	ID: 6	K: 	priority: 0	CPU used: 12	CPU max: 67	Wait: 0
+state: Running	ID: 7	K: 	priority: 0	CPU used: 16	CPU max: 22	Wait: 0
+state: Running	ID: 8	K: 	priority: 0	CPU used: 18	CPU max: 9	Wait: 0
+state: Running	ID: 9	K: 	priority: 0	CPU used: 11	CPU max: 3	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 10	CPU max: 69	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 32	CPU max: 75	Wait: 0
+state: Running	ID: 5	K: 	priority: 0	CPU used: 24	CPU max: 43	Wait: 0
+state: Running	ID: 6	K: 	priority: 0	CPU used: 27	CPU max: 67	Wait: 0
+state: Running	ID: 7	K: 	priority: 0	CPU used: 35	CPU max: 22	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 21	CPU max: 69	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 45	CPU max: 75	Wait: 0
+state: Running	ID: 5	K: 	priority: 0	CPU used: 41	CPU max: 43	Wait: 0
+state: Running	ID: 6	K: 	priority: 0	CPU used: 46	CPU max: 67	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 34	CPU max: 69	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 60	CPU max: 75	Wait: 0
+state: Running	ID: 5	K: 	priority: 0	CPU used: 56	CPU max: 43	Wait: 0
+state: Running	ID: 6	K: 	priority: 0	CPU used: 59	CPU max: 67	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 46	CPU max: 69	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 70	CPU max: 75	Wait: 0
+state: Running	ID: 6	K: 	priority: 0	CPU used: 71	CPU max: 67	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 65	CPU max: 69	Wait: 0
+state: Running	ID: 4	K: 	priority: 0	CPU used: 84	CPU max: 75	Wait: 0
+state: Running	ID: 10	K: 	priority: 0	CPU used: 77	CPU max: 69	Wait: 0
