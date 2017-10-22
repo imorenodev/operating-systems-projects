@@ -230,8 +230,8 @@ public class ProcessMgmt
 		Collections.sort((List)QMemOpen);
 		for (PCB loopI : QMemOpen)
 		{
-			System.out.printf("\n@0500 QMemOpen sorted\t%s\n", loopI.showPCB()) ;
-			writer.write(String.format("\n@0500 QMemOpen sorted\t%s\n", loopI.showPCB()));
+			System.out.printf("@0500 QMemOpen sorted\t%s\n", loopI.showPCB()) ;
+			writer.write(String.format("@0500 QMemOpen sorted\t%s\n", loopI.showPCB()));
 			writer.newLine();
 		}
 		
@@ -242,8 +242,8 @@ public class ProcessMgmt
 			
 			for (PCB pcb : QMemOpen)
 			{
-				System.out.printf("\n@0500 QMemOpen sorted\t%s\n", pcb.showPCB()) ;
-				writer.write(String.format("\n@0500 QMemOpen sorted\t%s\n", pcb.showPCB()));
+				System.out.printf("@0500 QMemOpen sorted\t%s\n", pcb.showPCB()) ;
+				writer.write(String.format("@0500 QMemOpen sorted\t%s\n", pcb.showPCB()));
 				writer.newLine();
 			}
 		}

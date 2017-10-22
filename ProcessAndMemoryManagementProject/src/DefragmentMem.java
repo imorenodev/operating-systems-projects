@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Iterator;
 
 public class DefragmentMem {
@@ -6,18 +7,31 @@ public class DefragmentMem {
 		if (QMemOpen.isEmpty()) return false;
 
 		boolean defragged = false;
-		Iterator<PCB> QMemOpenIterator1 = QMemOpen.iterator();
+		Iterator<PCB> QMemOpenIterator = QMemOpen.iterator();
 	
-		for (int i = 0; QMemOpen.size() > 1;) {
-			PCB tempPCB = QMemOpen.get(i);
-			PCB nextPCB = QMemOpen.get(i+1);
-			if (tempPCB.get_memLimit() == nextPCB.get_memBase()) {
-				nextPCB.set_memBase(tempPCB.get_memBase());
-				defragged = true;
+		PCB head = QMemOpen.getFirst();
+		PCB next = null;
+		List<PCB> removeList = new LinkedList<>();
+		LinkedList<PCB> newOpenList = new LinkedList<>();
+
+		while (QMemOpenIterator.hasNext()) {
+			next = QMemOpenIterator.next();
+			if (head.get_memLimit() == next.get_memBase()) {
+				head.set_memLimit(next.get_memLimit());
+				removeList.add(next);
+			} else {
+				newOpenList.add(head);
+				head = next;
 			}
-			QMemOpen.remove(tempPCB);
+		}
+		
+		if (!removeList.isEmpty()) {
+			QMemOpen.removeAll(removeList);
+			defragged = true;
 		}
 
 		return defragged;
 	}
+
+
 }
