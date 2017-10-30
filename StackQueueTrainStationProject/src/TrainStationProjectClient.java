@@ -23,22 +23,30 @@ public class TrainStationProjectClient {
 		QueueInterface<Passenger> passengerQueue = new LinkedQueue<>();
 		int numberOfPassengersCreated = 0;
 		int numberOfPassengersWaiting = 0;
+		int time = 0;
 
 		createStations(stationList);
 		
-		for (int time = 0; time < TIME_INTERVAL; time++) {
-			// calculate total passengers waiting
+		for (; time < TIME_INTERVAL; time++) {
 			// output time #waiting # on Trains
+			System.out.println("Current Time: " + time + ".\tNumber of passengers waiting: " 
+												+ numberOfPassengersWaiting + ".\tNumber of passengers on trains: " 
+												+ passengersOnTrains + ".");
 
 			// start a new train
 			startNewTrain(time, trainQueue);
 			
 			// create passengers at this interval, and update number of passengers created
-			numberOfPassengersCreated = generatePassengers(stationList, passengerQueue);
+			numberOfPassengersCreated += generatePassengers(stationList, passengerQueue);
 			
 			// move the trains in the queue
 			moveTrains(trainQueue, stationList, time);
+
+			// update numberOfPassengersWaiting
+			numberOfPassengersWaiting = numberOfPassengersCreated - passengersOnTrains - passengersDelivered;
 		}
+		
+		finalReport(time, numberOfPassengersCreated, passengerQueue);
 	}
 	
 	/**
@@ -73,6 +81,9 @@ public class TrainStationProjectClient {
 		int stopStation = 0;
 		
 		for (int i = 0; i < numberOfPassengers; i++) {
+			// reset startStation and stopStation
+			startStation = 0;
+			stopStation = 0;
 			while (startStation >= stopStation) {
 				startStation = generator.nextInt(NUM_STATIONS);
 				stopStation = generator.nextInt(NUM_STATIONS);
@@ -95,6 +106,8 @@ public class TrainStationProjectClient {
 		int stationNumber = 0;
 		// create temporary variable of the train count during this time interval to loop through each train
 		int tempTrainCount = trainCount;
+		int passengersBoarded = 0;
+		int passengersUnloaded = 0;
 		Train tempTrain = null;
 
 		for (int i = 0; i < tempTrainCount; i++) {
@@ -106,10 +119,13 @@ public class TrainStationProjectClient {
 				stationNumber = tempTrain.nextStation();
 
 				// unload all passengers getting off at current station 
-				passengersDelivered = tempTrain.unloadPassengers(stationNumber);
+				passengersUnloaded = tempTrain.unloadPassengers(stationNumber);
+				passengersDelivered += passengersUnloaded;
+				passengersOnTrains -= passengersUnloaded;
+				
 				
 				// load all passengers getting on to train from current station
-				passengersOnTrains = tempTrain.loadPassengers(stationList.get(stationNumber), time);
+				passengersOnTrains += tempTrain.loadPassengers(stationList.get(stationNumber), time);
 				
 				// update train to next station to move to
 				tempTrain.updateStation(stationList.get(stationNumber + 1).getTimeToNextStation());
