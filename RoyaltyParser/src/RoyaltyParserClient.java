@@ -79,6 +79,14 @@ public class RoyaltyParserClient {
         for (Book book : bookList) {
 			System.out.println(book);
         }
+        
+        List<String> asins = new ArrayList<>();
+        asins.add("1234");
+        asins.add("1337");
+        
+        Author claire = new Author("Claire", asins);
+        
+        System.out.println(claire);
     }
 
     
