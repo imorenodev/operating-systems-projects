@@ -28,11 +28,6 @@ public class TrainStationProjectClient {
 		createStations(stationList);
 		
 		for (; time < TIME_INTERVAL; time++) {
-			// output time #waiting # on Trains
-			System.out.println("Current Time: " + time + ".\tNumber of passengers waiting: " 
-												+ numberOfPassengersWaiting + ".\tNumber of passengers on trains: " 
-												+ passengersOnTrains + ".");
-
 			// start a new train
 			startNewTrain(time, trainQueue);
 			
@@ -44,6 +39,10 @@ public class TrainStationProjectClient {
 
 			// update numberOfPassengersWaiting
 			numberOfPassengersWaiting = numberOfPassengersCreated - passengersOnTrains - passengersDelivered;
+			// output time #waiting # on Trains
+			System.out.println("-----\nCurrent Time: " + time + ".\nNumber of passengers waiting: " 
+												+ numberOfPassengersWaiting + ".\nNumber of passengers on trains: " 
+												+ passengersOnTrains + ".\n-----");
 		}
 		
 		finalReport(time, numberOfPassengersCreated, passengerQueue);
