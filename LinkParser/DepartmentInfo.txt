@@ -1,0 +1,2262 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" id="departmentInfo">
+	<department name="No Department"></department>
+	<department name="Allied Health">
+		<advisement_image></advisement_image>
+		<contact_image>contact_alliedHealth</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>Academic Advisors are available to help you select the courses that best support your educational and career goals as well as provide direction to the many resources and support services available at the college. Each semester, full-time students pursuing a degree at CCM must see their Academic Advisor(s) to obtain advisement clearance in order to register for classes</department_advise_info>
+		<department_calendar>http://www.ccm.edu/wp-content/uploads/pdf/advisement/advisors/Radiography_Advisors.pdf</department_calendar>
+		<department_chair>Denise Vill'Neuve</department_chair>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+            <line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_alliedhealth</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_office>Cohen Hall CH 300</department_office>
+		<department_summary>Welcome to the Allied Health Department. County College of Morris has two allied health professions in the field of Radiography and Respiratory Therapy. Radiography is an art and science that involves the medical imaging of patients in order to produce a radiograph for the diagnosis of disease.  If you are seeking a career in healthcare that combines technology with patient interaction, you should consider respiratory therapy.</department_summary>
+		<department_tutor_link>http://www.ccm.edu/Media/Website%20Resources/pdf/advisement/advisors/Respiratory_Advisors.pdf</department_tutor_link>
+		<department_url>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-allied-health/</department_url>
+		<faculty name="Marian Maloney" lastname="Maloney">
+			<department>Allied Health</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Marian&amp;instructor_lastname=Maloney</contact>
+			<fimage></fimage>
+			<number>973-328-5756</number>
+			<email>mmaloney@ccm.edu</email>
+		</faculty>
+		<faculty name="John Rutkowski" lastname="Rutkowski">
+			<department>Allied Health</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Rutkowski</contact>
+			<fimage>rutkowski</fimage>
+			<number>973-328-5423</number>
+			<email>jrutkowski@ccm.edu</email>
+		</faculty>
+        
+        
+        <faculty name="Ann Verschuuren" lastname="Verschuuren">
+            <department>Allied Health</department>
+            <contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Ann&amp;instructor_lastname=Verschuuren</contact>
+            <fimage></fimage>
+            <number>973-328-5240</number>
+            <email>averschuuren@ccm.edu</email>
+        </faculty>
+        
+        
+		<faculty name="Sueanne Verna" lastname="Verna">
+			<department>Allied Health</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Sueanne&amp;instructor_lastname=Verna</contact>
+			<fimage></fimage>
+			<number>973-328-5382</number>
+			<email>sverna@ccm.edu</email>
+		</faculty>
+		<faculty name="Denise Vill'Neuve" lastname="Vill'Neuve">
+			<department>Allied Health</department>
+			<contact>http://www4.ccm.edu/directory/directory.aspx?instructor_firstname=Denise&amp;instructor_lastname=Vill'Neuve</contact>
+			<number>973-328-5144</number>
+			<email>dvillneuve@ccm.edu</email>
+			<fimage>chair_villneuve_denise</fimage>
+		</faculty>
+        <map>
+            <lat>40.8580231</lat>
+            <lng>-74.5792815</lng>
+            <msnippet>CH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<faculty_placeholder_image>alliedlogo</faculty_placeholder_image>
+		<program name="3840 - A.A.S. in Radiography">
+			<department>Allied Health</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-allied-health/radiography/</plink>
+		</program>
+		<program name="3850 - A.A.S. in Respiratory Therapy">
+			<department>Allied Health</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-allied-health/respiratory-therapy/</plink>
+		</program>
+	</department>
+	
+	
+	
+	
+	
+	
+	<department name="Art and Design">
+		<advisement_image>advise_artDesign</advisement_image>
+		<contact_image>contact_artDesign</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). 
+
+Registration for the spring and fall semester begins in early November and April, respectively. 
+
+You may see any faculty member whose area of study matches your own for advisement during their regular office hours or advisement hours. Appointments are recommended.</department_advise_info>
+		<department_calendar>http://www.ccm.edu/wp-content/uploads/pdf/advisement/advisors/Art_Design_Advisors.pdf</department_calendar>
+		<department_chair>Clayton Allen</department_chair>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+            <line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_artdesign</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_office>Emeriti Hall EH 102</department_office>
+		<department_summary>Whether you are a beginner or seasoned veteran, The Art and Design Department has professional studio space, master teachers and engaging course work to match and further your creative goals. Five exciting and diverse degree programs reside in the Art and Design Department.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/department-of-art-and-design/</department_url>
+		<faculty name="Clayton Allen" lastname="Allen">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Clayton&amp;instructor_lastname=Allen</contact>
+			<fimage>chair_clayton_allen</fimage>
+			<number>973-328-5446</number>
+			<email>callen@ccm.edu</email>
+			<department>Art and Design</department>
+		</faculty>
+		<faculty name="Yvonne Bandy" lastname="Bandy">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Yvonne&amp;instructor_lastname=Bandy</contact>
+			<fimage></fimage>
+			<number>973-328-5442</number>
+			<email>ybandy@ccm.edu</email>
+		</faculty>
+		<faculty name="Todd Doney" lastname="Doney">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Todd&amp;instructor_lastname=Doney</contact>
+			<fimage>doney</fimage>
+			<number>973-328-5622</number>
+			<email>tdoney@ccm.edu</email>
+		</faculty>
+		<faculty name="Nieves Gruneiro-Roadcap" lastname="Gruneiro-Roadcap">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Nieves&amp;instructor_lastname=Gruneiro-Roadcap</contact>
+			<fimage>roadcap</fimage>
+			<number>973-328-5435</number>
+			<email>ngruneiro@ccm.edu</email>
+		</faculty>
+		<faculty name="James Howard" lastname="Howard">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=James&amp;instructor_lastname=Howard</contact>
+			<fimage>howard</fimage>
+			<number>973-328-5436</number>
+			<email>jhoward@ccm.edu</email>
+		</faculty>
+		<faculty name="Stephen Longo" lastname="Longo">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Stephen&amp;instructor_lastname=Longo</contact>
+			<fimage>longo</fimage>
+			<number>973-328-5438</number>
+			<email>slongo@ccm.edu</email>
+		</faculty>
+		<faculty name="Hrvoje Slovenc" lastname="Slovenc">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Hrvoje&amp;instructor_lastname=Slovenc</contact>
+			<fimage>slovenc</fimage>
+			<number>973-328-5440</number>
+			<email>hslovenc@ccm.edu</email>
+		</faculty>
+		<faculty name="Keith Smith" lastname="Smith">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Keith&amp;instructor_lastname=Smith</contact>
+			<fimage>smith</fimage>
+			<number>973-328-5400</number>
+			<email>ksmith@ccm.edu</email>
+		</faculty>
+		<faculty name="Kelly Whalen" lastname="Whalen">
+			<department>Art and Design</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kelly&amp;instructor_lastname=Whalen</contact>
+			<fimage>whalen</fimage>
+			<number>973-328-5416</number>
+			<email>kwhalen@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>artdes</faculty_placeholder_image>
+		<map>
+			<lat>40.8584091</lat>
+			<lng>-74.5783368</lng>
+			<msnippet>EH 102</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>2</floor>
+		</map>
+		<program name="3560 - A.A.S. in Graphic Design">
+			<department>Art and Design</department>
+			<plink>http://www.ccm.edu/academics/divdep/department-of-art-and-design/graphic-design/</plink>
+		</program>
+		<program name="3550 - A.A.S. in Photography Technology">
+			<department>Art and Design</department>
+			<plink>http://www.ccm.edu/academics/divdep/department-of-art-and-design/photography-technology/</plink>
+		</program>
+		<program name="4141 - A.F.A in Design">
+			<department>Art and Design</department>
+			<plink>http://www.ccm.edu/academics/divdep/department-of-art-and-design/design/</plink>
+		</program>
+		<program name="4140 - A.F.A. in Visual Arts">
+			<department>Art and Design</department>
+			<plink>http://www.ccm.edu/academics/divdep/department-of-art-and-design/visual-arts/</plink>
+		</program>
+		<program name="4140 - A.F.A. in Visual Arts with Education Specialization">
+			<department>Art and Design</department>
+			<plink>http://www.ccm.edu/academics/divdep/department-of-art-and-design/visual-arts-education-specialization/</plink>
+		</program>
+	</department>
+	<department name="Biology and Chemistry">
+		<advisement_image>advise_biologyChemistry</advisement_image>
+		<contact_image>contact_biologyChemistry</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>If you are a full-time Biology, Chemistry, Biotechnology or Chemical Technology Major, you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. If you are a part-time student, you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary).
+
+Registration for the Spring and Fall Semesters begins in early November and April respectively.</department_advise_info>
+		<department_calendar>https://www.google.com/calendar/embed?src=ff80r59oj97ltf0rf68s6qebsc%40group.calendar.google.com&amp;ctz=America/New_York</department_calendar>
+		<department_chair>Maria Isaza</department_chair>
+		<department_email>mohallaran@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="true">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+            <line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_biochem</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5360</department_number>
+		<department_office>Sheffield Hall SH 208</department_office>
+		<department_summary>The CCM Department of Biology and Chemistry provides instruction, advisement and tutoring in the Biological and Chemical Sciences. We offer A.S. degrees in Science and Mathematics (including a Biology Option and Chemistry Option) and A.A.S. degrees in Biotechnology and Chemical Technology (including an Environmental Science Option).</department_summary>
+		<department_tutor_description>The Science Center at CCM provides free tutoring services for Biology and Chemistry students. Tutoring is done by faculty and students who have excelled in their studies and have a desire to share their knowledge. The Science Center offers self-study hours as well as scheduled appointments.</department_tutor_description>
+		<department_tutor_link>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/tutoring-center-science/</department_tutor_link>
+		<department_tutor_location>DeMare Hall DH 156</department_tutor_location>
+		<department_url>https://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/</department_url>
+		<faculty name="Dorothy Salinas" lastname="Salinas">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dorothy&amp;instructor_lastname=Salinas</contact>
+			<fimage>salinas</fimage>
+			<number>973-328-5375</number>
+			<email>dsalinas@ccm.edu</email>
+		</faculty>
+		<faculty name="John Berger" lastname="Berger">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Berger</contact>
+			<fimage>berger</fimage>
+			<number>973-328-5731</number>
+			<email>jberger@ccm.edu</email>
+		</faculty>
+		<faculty name="Teresa Birrer" lastname="Birrer">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Teresa&amp;instructor_lastname=Birrer</contact>
+			<fimage>birrer</fimage>
+			<number>tel:973-328-2497</number>
+			<email>tbirrer@ccm.edu</email>
+		</faculty>
+		<faculty name="Caitlin Burns" lastname="Burns">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Caitlin&amp;instructor_lastname=Burns</contact>
+			<fimage></fimage>
+			<number>973-328-5373</number>
+			<email>cburns@ccm.edu</email>
+		</faculty>
+		<faculty name="Anthony DiStasio" lastname="DiStasio">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Anthony&amp;instructor_lastname=DiStasio</contact>
+			<fimage>distasio</fimage>
+			<number>973-328-5339</number>
+			<email>adistasio@ccm.edu</email>
+		</faculty>
+		<faculty name="Gregory Erianne" lastname="Erianne">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Greg&amp;instructor_lastname=Erianne</contact>
+			<fimage>erianne</fimage>
+			<number>973-328-5377</number>
+			<email>gerianne@ccm.edu</email>
+		</faculty>
+		<faculty name="Keri Flanagan" lastname="Flanagan">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Keri&amp;instructor_lastname=Flanagan</contact>
+			<fimage>flanagan</fimage>
+			<number>973-328-5732</number>
+			<email>kflanagan@ccm.edu</email>
+		</faculty>
+		<faculty name="Samantha Gigliotti" lastname="Gigliotti">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Samantha&amp;instructor_lastname=Gigliotti</contact>
+			<fimage>gigliotti</fimage>
+			<number>973-328-5370</number>
+			<email>sgigliotti@ccm.edu</email>
+		</faculty>
+		<faculty name="Jason Hudzik" lastname="Hudzik">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jason&amp;instructor_lastname=Hudzik</contact>
+			<fimage>hudzik</fimage>
+			<number>973-328-5222</number>
+			<email>jhudzik@ccm.edu</email>
+		</faculty>
+		<faculty name="William C. Hunter" lastname="Hunter">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=William&amp;instructor_lastname=Hunter,%20Jr.</contact>
+			<fimage></fimage>
+			<number>973-328-5372</number>
+			<email>whunter@ccm.edu</email>
+		</faculty>
+		<faculty name="Maria Isaza" lastname="Isaza">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Maria&amp;instructor_lastname=Isaza</contact>
+			<fimage>chair_isaza_maria</fimage>
+			<number>973-328-5730</number>
+			<email>misaza@ccm.edu</email>
+			<department>Biology and Chemistry</department>
+		</faculty>
+		<faculty name="Janet Johannessen" lastname="Johannessen">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Janet&amp;instructor_lastname=Johannessen</contact>
+			<fimage>johannessen</fimage>
+			<number>973-328-5358</number>
+			<email>jjohannessen@ccm.edu</email>
+		</faculty>
+		<faculty name="Loryn Stoler" lastname="Stoler">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Loryn&amp;instructor_lastname=Stoler</contact>
+			<fimage>stoler</fimage>
+			<number>973-328-5376</number>
+			<email>lstoler@ccm.edu</email>
+		</faculty>
+		<faculty name="Christine Kelly" lastname="Kelly">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Christine&amp;instructor_lastname=Kelly</contact>
+			<fimage>kelly</fimage>
+			<number>973-328-5371</number>
+			<email>ckelly@ccm.edu</email>
+		</faculty>
+		<faculty name="Jenifer Martin" lastname="Martin">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jenifer&amp;instructor_lastname=Martin</contact>
+			<fimage>martin</fimage>
+			<number>973-328-5357</number>
+			<email>jlmartin@ccm.edu</email>
+		</faculty>
+		<faculty name="Helen G. Mastrobuoni" lastname="Mastrobuoni">
+			<department>Biology and Chemistry</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Helen&amp;instructor_lastname=Mastrobuoni</contact>
+			<fimage>mastrobuoni</fimage>
+			<number>973-328-5374</number>
+			<email>hmastrobuoni@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>anatomy</faculty_placeholder_image>
+		<map>
+			<lat>40.8588181</lat>
+			<lng>-74.5789207</lng>
+			<msnippet>SH 208</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>1</floor>
+		</map>
+		<program name="2152 - A.S. in Science and Mathematics - Chemistry Option">
+			<department>Biology and Chemistry</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/chemistry/</plink>
+		</program>
+		<program name="2160 - A.S. in Science and Mathematics - Biology Option">
+			<department>Biology and Chemistry</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/biology/</plink>
+		</program>
+		<program name="3330 - A.A.S. in Biotechnology">
+			<department>Biology and Chemistry</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/biotechnology/</plink>
+		</program>
+		<program name="3450 - A.A.S. in Chemical Technology">
+			<department>Biology and Chemistry</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/chemical-technology/</plink>
+		</program>
+		<program name="3451 - A.A.S. in Chemical Technology - Environmental Science Option">
+			<department>Biology and Chemistry</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/environmental-science/</plink>
+		</program>
+		<tutoring_image>tutoring_biologyChemistry</tutoring_image>
+	</department>
+	<department name="Business">
+        <advisement_image>advise_business</advisement_image>
+		<contact_image>contact_business</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>As a full time student majoring in Business Administration, Business Career, or one of the Business Certificates, you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary).</department_advise_info>
+		<department_calendar>https://www.google.com/calendar/embed?src=ccmbusinessdept%40gmail.com&amp;ctz=America/New_York</department_calendar>
+		<department_chair>Maureen Sutton</department_chair>
+		<department_email>mpottinger@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="true">Clubs</line>
+            <line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_business</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5656</department_number>
+		<department_office>Cohen Hall CH 204</department_office>
+		<department_summary>Our mission is to provide quality curriculum programs to meet the existing and changing needs of students, the community, industry, local government, and all citizens who look to the County College of Morris for lifelong learning and professional development opportunities.
+
+We offer Associate in Science and Associate in Applied Science Degrees in the following subjects:
+ - Business Administration
+ - Business Career
+
+We also offer Certificates of Achievement in:
+ - Finance
+ - Small Business Management</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/BMET/business/</department_url>
+		<faculty name="Frank Bagan" lastname="Bagan">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Frank&amp;instructor_lastname=Bagan</contact>
+			<fimage>bagan</fimage>
+			<number>973-328-5664</number>
+			<email>fbagan@ccm.edu</email>
+		</faculty>
+		<faculty name="Karen Crisonino" lastname="Crisonino">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Karen&amp;instructor_lastname=Crisonino</contact>
+			<fimage>crisonino</fimage>
+			<number>973-328-5650</number>
+			<email>kcrisonino@ccm.edu</email>
+		</faculty>
+		<faculty name="Anthony Cupo" lastname="Cupo">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Anthony&amp;instructor_lastname=Cupo</contact>
+			<fimage>cupo</fimage>
+			<number>973-328-5666</number>
+			<email>acupo@ccm.edu</email>
+		</faculty>
+		<faculty name="Najib Iftikhar" lastname="Iftikhar">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Najib&amp;instructor_lastname=Iftikhar</contact>
+			<fimage>iftikhar</fimage>
+			<number>973-328-5667</number>
+			<email>niftikhar@ccm.edu</email>
+		</faculty>
+		<faculty name="Susan Miller" lastname="Miller">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Susan&amp;instructor_lastname=Miller</contact>
+			<fimage>miller</fimage>
+			<number>973-328-5662</number>
+			<email>smiller2@ccm.edu</email>
+		</faculty>
+		<faculty name="Jennifer Qvotrup" lastname="Qvotrup">
+			<department>Business</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jennifer&amp;instructor_lastname=Qvotrup</contact>
+			<fimage></fimage>
+			<number>973-328-5657</number>
+			<email>jqvotrup@ccm.edu</email>
+		</faculty>
+		<faculty name="Maureen Sutton" lastname="Sutton">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Maureen&amp;instructor_lastname=Sutton</contact>
+			<fimage>chair_sutton_maureen</fimage>
+			<number>973-328-5675</number>
+			<email>msutton@ccm.edu</email>
+			<department>Business</department>
+		</faculty>
+		<faculty_placeholder_image>bus_placeholder</faculty_placeholder_image>
+		<map>
+			<lat>40.8579522</lat>
+			<lng>-74.5793368</lng>
+			<msnippet>CH 204</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>1</floor>
+		</map>
+		<program name="2110 - A.S. in Business Administration">
+			<department>Business</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/business/business-administration-transfer-program/</plink>
+		</program>
+		<program name="3400 - A.A.S. in Business Career">
+			<department>Business</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/business/business-professional-career-program/</plink>
+		</program>
+		<program name="0344 - Certificate in Finance">
+			<department>Business</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/business/finance/</plink>
+		</program>
+		<program name="0400 - Certificate in Small Business Management">
+			<department>Business</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/business/small-business-management/</plink>
+		</program>
+		<tutoring_image>clubs_business</tutoring_image>
+        <department_tutor_description>The Business Department offers the following clubs to its students:
+            
+            - Alpha Beta Gamma
+            ABG is an International Business Honor Society established to recognize and encourage scholarship among two-year college students in business curricula.
+            
+            - Young Entrepreneurs of America (YEA)
+            Young Entrepreneurs of America is an organization where business students can network, share ideas, learn about the economics of entrepreneurship, and ultimately gain a real world perspective.
+            
+            Contact the Business Department for more information.</department_tutor_description>
+        
+	</department>
+	<department name="Communication">
+		<advisement_image>advise_communication</advisement_image>
+		<contact_image>contact_communication</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>If you have chosen a major in the Department of Communication, please look at the chart below to locate the Academic Advisor associated with your specific major. As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). Registration for the spring and fall semesters begins in early November and April, respectively. Be on the lookout for more information about “Advisement Week” for your department/major.
+	 
+Communication: Professors Jones, Altieri, Pallant
+Journalism: Professor Soltes
+Broadcasting: Professor Kalas</department_advise_info>
+		<department_chair>Matthew Jones</department_chair>
+		<department_email>lking@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="true">Courses</line>
+		</department_fragments>
+		<department_icon>ic_communication</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5210</department_number>
+		<department_office>DeMare Hall DH 300</department_office>
+		<department_summary>Welcome to the new Department of Communication, where we prepare students for success in the global information economy, by combining practical skills in media production, journalism, public relations, and interpersonal communication with theoretical insights into the evolving nature of media, aesthetics, and human relationships.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-communication/</department_url>
+		<faculty name="Michelle Altieri" lastname="Altieri">
+			<department>Communication</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Michelle&amp;instructor_lastname=Altieri</contact>
+			<fimage>altieri</fimage>
+			<number>973-328-2498</number>
+			<email>maltieri@ccm.edu</email>
+		</faculty>
+		<faculty name="Matthew Jones" lastname="Jones">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Matthew&amp;instructor_lastname=Jones</contact>
+			<fimage>chair_jones_matthew</fimage>
+			<number>973-328-5466</number>
+			<email>mjones@ccm.edu</email>
+			<department>Communication</department>
+		</faculty>
+		<faculty name="Raymond Kalas" lastname="Kalas">
+			<department>Communication</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Ray&amp;instructor_lastname=Kalas</contact>
+			<fimage>kalas</fimage>
+			<number>973-328-5276</number>
+			<email>rkalas@ccm.edu</email>
+		</faculty>
+		<faculty name="David Pallant" lastname="Pallant">
+			<department>Communication</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=David&amp;instructor_lastname=Pallant</contact>
+			<fimage>pallant</fimage>
+			<number>973-328-5448</number>
+			<email>dpallant@ccm.edu</email>
+		</faculty>
+		<faculty name="John Soltes" lastname="Soltes">
+			<department>Communication</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Soltes</contact>
+			<fimage>soltes</fimage>
+			<number>973-328-5469</number>
+			<email>jsoltes@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>communication</faculty_placeholder_image>
+        <map>
+            <lat>40.857640</lat>
+            <lng>-74.580152</lng>
+            <msnippet>DH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="1129 - A.A. in Communication">
+			<department>Communication</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-communication/communications/</plink>
+		</program>
+		<program name="1132 - A.A. in Broadcasting Arts and Technology">
+			<department>Communication</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-communication/broadcasting-arts-and-technology/</plink>
+		</program>
+		<program name="1133 - A.A. in Journalism">
+			<department>Communication</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-communication/journalism/</plink>
+		</program>
+	</department>
+	<department name="Criminal Justice">
+		<advisement_image>advise_criminalJustice</advisement_image>
+		<contact_image>contact_criminalJustice</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>You have chosen a major in the Criminal Justice program . As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about “Advisement Week” for your department/major.</department_advise_info>
+		<department_chair>William Solomons</department_chair>
+		<department_email>ecadden@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="false">ProgramInfo</line>
+			<line ischecked="false">Advise</line>
+			<line ischecked="true">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_justice</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5760</department_number>
+		<department_office>Sheffield Hall SH 301</department_office>
+		<department_summary>This curriculum of study is designed for students seeking further education in criminal justice, as well as those needing career-oriented skills and knowledge. The ability of police, judicial and correctional agencies to control and respond to crime is inherently related to the human interaction skills of those who staff the system. The course work provided helps guide the student in understanding the complex issues related to the role of law.</department_summary>
+		<department_url>http://catalog.ccm.edu/credit/areasofstudy/criminaljustice/</department_url>
+		<faculty name="John Hurd" lastname="Hurd">
+			<department>Criminal Justice</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Hurd</contact>
+			<fimage>hurd</fimage>
+			<number>973-328-5633</number>
+			<email>jhurd@ccm.edu</email>
+		</faculty>
+		<faculty name="William Solomons" lastname="Solomons">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=william&amp;instructor_lastname=solomons</contact>
+			<fimage>chair_solomons_william</fimage>
+			<number>973-328-5648</number>
+			<email>wsolomons@ccm.edu</email>
+			<department>Criminal Justice</department>
+		</faculty>
+		<faculty_placeholder_image>criminaljustice</faculty_placeholder_image>
+        <map>
+            <lat>40.858649</lat>
+            <lng>-74.578964</lng>
+            <msnippet>SH 301</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>1</floor>
+        </map>
+		<program name="3651 - A.S. in Criminal Justice">
+			<department>Criminal Justice</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-criminal-justice/</plink>
+		</program>
+	</department>
+	<department name="Engineering Technology and Engineering Science">
+		<advisement_image>advise_engineering</advisement_image>
+		<contact_image>contact_engineering</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>You have chosen a major in the Engineering Technologies and Engineering Science Department. As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about “Advisement Week” for your department/major.</department_advise_info>
+		<department_chair>Venancio L. Fuentes</department_chair>
+		<department_email>ecadden@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="true">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_engtech</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5760</department_number>
+		<department_office>Sheffield Hall SH 301</department_office>
+		<department_summary>The ETES department oversees programs that merge theory, application and design forming a foundation for careers in areas such as aviation, engineering, drafting, fire service and telecommunication/computer networking. All of these programs are career oriented and can be completed in as little as a year in the case the Certificate program in CAD (Computer-Aided-Drafting) or can serve as the stepping stone for transfer to a four-year institution in the case of the Associates in Science for Engineering Science major.</department_summary>
+		<department_tutor_description>The Math Center, staffed by faculty, paraprofessionals and peer tutors, offers free tutorial assistance and workshops to enhance student learning in mathematics, physics and engineering. These services are offered through individual and group appointments or on a drop-in basis.</department_tutor_description>
+		<department_tutor_link>http://www.ccm.edu/admissions/placement-testing-2/testing-center/math-center-and-math-tutoring/</department_tutor_link>
+		<department_tutor_location>DeMare Hall DH 156</department_tutor_location>
+		<department_url>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/</department_url>
+		<faculty name="George Bennett" lastname="Bennett">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=George&amp;instructor_lastname=Bennett</contact>
+			<fimage></fimage>
+			<number>973-328-5274</number>
+			<email>gbennett@ccm.edu</email>
+		</faculty>
+		<faculty name="Jefferson Cartano" lastname="Cartano">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jefferson&amp;instructor_lastname=Cartano</contact>
+			<fimage>cartano</fimage>
+			<number>973-328-5762</number>
+			<email>jcartano@ccm.edu</email>
+		</faculty>
+		<faculty name="Ian Colquhoun" lastname="Colquhoun">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Ian&amp;instructor_lastname=Colquhoun</contact>
+			<fimage>colquoun</fimage>
+			<number>973-328-5758</number>
+			<email>icolquhoun@ccm.edu</email>
+		</faculty>
+		<faculty name="Venancio L. Fuentes" lastname="Fuentes">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Venancio&amp;instructor_lastname=Fuentes</contact>
+			<fimage>chair_fuentes_venancio</fimage>
+			<number>973-328-5760</number>
+			<email>vfuentes@ccm.edu</email>
+			<department>Engineering Technology and Engineering Science</department>
+		</faculty>
+		<faculty name="John Klages" lastname="Klages">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Klages</contact>
+			<fimage>klages</fimage>
+			<number>973-328-5720</number>
+			<email>jklages@ccm.edu</email>
+		</faculty>
+		<faculty name="Nial P. McCabe" lastname="McCabe">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Nial&amp;instructor_lastname=McCabe</contact>
+			<fimage>mccabe</fimage>
+			<number>973-328-5761</number>
+			<email>nmccabe@ccm.edu</email>
+		</faculty>
+		<faculty name="Edward Osoliniec" lastname="Osoliniec">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Edward&amp;instructor_lastname=Osoliniec</contact>
+			<fimage></fimage>
+			<number>973-328-5767</number>
+			<email>eosoliniec@ccm.edu</email>
+		</faculty>
+		<faculty name="Thomas Roskop" lastname="Roskop">
+			<department>Engineering Technology and Engineering Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Thomas&amp;instructor_lastname=Roskop</contact>
+			<fimage></fimage>
+			<number>973-328-5721</number>
+			<email>troskop@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>steam_engine</faculty_placeholder_image>
+		<map>
+			<lat>40.858649</lat>
+			<lng>-74.578964</lng>
+			<msnippet>SH 301</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>0</floor>
+		</map>
+		<program name="2180 - A.S. in Engineering Science">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/engineering-science/</plink>
+		</program>
+		<program name="3460 - A.A.S. in Fire Science Technology">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/fire-science/</plink>
+		</program>
+		<program name="3600 - A.A.S. in Electronics Engineering Technology">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/electronics-engineering-technology/</plink>
+		</program>
+		<program name="3601 - A.A.S. in Biomedical Equipment">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/biomedical-equipment/</plink>
+		</program>
+		<program name="3640 - A.A.S. in Aviation Flight Technology">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/degrees/aviationflight.aspx</plink>
+		</program>
+		<program name="3650 - A.A.S. in Telecommunication System">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/degrees/telecomsys.aspx</plink>
+		</program>
+		<program name="3651 - A.A.S. in Telecommunication - Network Option">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/degrees/networking.aspx</plink>
+		</program>
+		<program name="3700 - A.A.S. in Mechanical Engineering Technology">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/mechanical-engineering-technology/</plink>
+		</program>
+		<program name="5710 - Cert. in Computer-Aided Drafting Technology">
+			<department>Engineering Technology and Engineering Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-engineering-technologies-and-engineering-science/computer-aided-drafting-technology/</plink>
+		</program>
+		<tutoring_image>tutoring_engineering</tutoring_image>
+	</department>
+	<department name="English and Philosophy">
+		<advisement_image></advisement_image>
+		<contact_image>contact_englishPhilosophy</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>You have chosen a major in the English and Philosophy Department.
+            
+As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). In order to build a relationship and have continuity in your educational planning, it is advisable to meet with the same faculty member each semester for advisement.
+            
+For students majoring in Humanities &amp; Social Sciences/Liberal Arts (P1130), contact the office of the Dean of Liberal Arts, Dr Bruce Dutra, Cohen Hall 253, bdutra@ccm.edu, 973-328-5401, and you will be referred to a specific faculty member(s) for academic advisement.
+            
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about "Advisement Week" for your department/major.</department_advise_info>
+		<department_chair>Janet Eber</department_chair>
+		<department_email>croach@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_engphil</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5460</department_number>
+		<department_office>Cohen Hall CH 300</department_office>
+		<department_summary> In the English and Philosophy Department, you will find a range of courses and degree programs that are challenging, exciting, and relevant to your future! Our distinguished faculty is dedicated to your success in each of the four degree programs that are offered.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-english-and-philosophy/</department_url>
+		<faculty name="J. Ayettu Apwah" lastname="Apwah">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=J.%20Ayettu&amp;instructor_lastname=Apwah</contact>
+			<fimage>japwah</fimage>
+			<number>973-328-5405</number>
+			<email>japwah@ccm.edu</email>
+		</faculty>
+		<faculty name="Matthew Ayres" lastname="Ayres">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Matthew&amp;instructor_lastname=Ayres</contact>
+			<fimage>mayres</fimage>
+			<number>973-328-5476</number>
+			<email>mayres1@ccm.edu</email>
+		</faculty>
+		<faculty name="Philip Chase" lastname="Chase">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Philip&amp;instructor_lastname=Chase</contact>
+			<fimage>pchase</fimage>
+			<number>973-328-5461</number>
+			<email>pchase@ccm.edu</email>
+		</faculty>
+		<faculty name="Robert Cioffi" lastname="Cioffi">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Robert&amp;instructor_lastname=Cioffi</contact>
+			<fimage></fimage>
+			<number>973-328-5465</number>
+			<email>rcioffi@ccm.edu</email>
+		</faculty>
+		<faculty name="Debra DeMattio" lastname="DeMattio">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Debra&amp;instructor_lastname=Demattio</contact>
+			<fimage>ddemattio</fimage>
+			<number>973-328-5480</number>
+			<email>ddemattio@ccm.edu</email>
+		</faculty>
+		<faculty name="Janet Eber" lastname="Eber">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Janet&amp;instructor_lastname=Eber</contact>
+			<fimage>chair_eber_janet</fimage>
+			<number>973-328-5450</number>
+			<email>jeber@ccm.edu</email>
+			<department>English and Philosphy</department>
+		</faculty>
+		<faculty name="Evelyn Emma" lastname="Emma">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Evelyn&amp;instructor_lastname=Emma</contact>
+			<fimage></fimage>
+			<number>973-328-5473</number>
+			<email>eemma@ccm.edu</email>
+		</faculty>
+		<faculty name="Klark G. Gabrielsen" lastname="Gabrielsen">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Klark&amp;instructor_lastname=Gabrielsen</contact>
+			<fimage></fimage>
+			<number>973-328-5472</number>
+			<email>kgabrielsen@ccm.edu</email>
+		</faculty>
+		<faculty name="Laura M. Gabrielsen" lastname="Gabrielsen">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Laura&amp;instructor_lastname=Gabrielsen</contact>
+			<fimage></fimage>
+			<number>973-328-5459</number>
+			<email>lgabrielsen@ccm.edu</email>
+		</faculty>
+		<faculty name="Maryanne M. Garbowsky" lastname="Garbowsky">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mary%20Anne&amp;instructor_lastname=Garbowsky</contact>
+			<fimage></fimage>
+			<number>973-328-5447</number>
+			<email>mgarbowsky@ccm.edu</email>
+		</faculty>
+		<faculty name="Marie Giuriceo" lastname="Giuriceo">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Marie&amp;instructor_lastname=Giuriceo</contact>
+			<fimage></fimage>
+			<number>973-328-5470</number>
+			<email>mgiuriceo@ccm.edu</email>
+		</faculty>
+		<faculty name="Dorothy M. Hollowell" lastname="Hollowell">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dorothy&amp;instructor_lastname=Hollowell</contact>
+			<fimage>dhollowell</fimage>
+			<number>973-328-5412</number>
+			<email>dhollowell@ccm.edu</email>
+		</faculty>
+		<faculty name="Alexander J. Kucsma" lastname="Kucsma">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Alexander%20J.&amp;instructor_lastname=Kucsma</contact>
+			<fimage>akucsma</fimage>
+			<number>973-328-5462</number>
+			<email>akucsma@ccm.edu</email>
+		</faculty>
+		<faculty name="Peter J. Maguire" lastname="Maguire">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Peter&amp;instructor_lastname=Maguire</contact>
+			<fimage></fimage>
+			<number>973-328-5403</number>
+			<email>pmaguire@ccm.edu</email>
+		</faculty>
+		<faculty name="Karen Martin" lastname="Martin">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Karen&amp;instructor_lastname=Martin</contact>
+			<fimage></fimage>
+			<number>973-328-5413</number>
+			<email>kmartin@ccm.edu</email>
+		</faculty>
+		<faculty name="Dee McAree" lastname="McAree">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dee&amp;instructor_lastname=Mcaree</contact>
+			<fimage>dmcaree</fimage>
+			<number>973-328-5464</number>
+			<email>dmcaree@ccm.edu</email>
+		</faculty>
+		<faculty name="John H. McKendry" lastname="McKendry">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=McKendry</contact>
+			<fimage></fimage>
+			<number>973-328-5479</number>
+			<email>jmckendry@ccm.edu</email>
+		</faculty>
+		<faculty name="Kenneth Shouler" lastname="Shouler">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Kenneth&amp;instructor_lastname=Shouler</contact>
+			<fimage>kshouler</fimage>
+			<number>973-328-5422</number>
+			<email>kshouler@ccm.edu</email>
+		</faculty>
+		<faculty name="Mark D. Uffelman" lastname="Uffelman">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mark&amp;instructor_lastname=Uffelman</contact>
+			<fimage></fimage>
+			<number>973-328-5468</number>
+			<email>muffelman@ccm.edu</email>
+		</faculty>
+		<faculty name="Anthony Valentino" lastname="Valentino">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Anthony&amp;instructor_lastname=Valentino</contact>
+			<fimage></fimage>
+			<number>973-328-5455</number>
+			<email>avalentino@ccm.edu</email>
+		</faculty>
+		<faculty name="Gail B. Watson" lastname="Watson">
+			<department>English and Philosphy</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Gail&amp;instructor_lastname=Watson</contact>
+			<fimage></fimage>
+			<number>973-328-5411</number>
+			<email>gwatson@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>english_placeholder</faculty_placeholder_image>
+        <map>
+            <lat>40.8580231</lat>
+            <lng>-74.5792815</lng>
+            <msnippet>CH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="4150 - A.F.A. in Drama">
+			<department>English and Philosphy</department>
+			<plink>http://www.ccm.edu/academics/degrees/drama.aspx</plink>
+		</program>
+		<program name="1130 - A.A. in Humanities/Social Science">
+			<department>English and Philosphy</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-sociology-economics-anthropology/human-services/</plink>
+		</program>
+		<program name="1130 - A.A. in Liberal Arts - English Education Specialization">
+			<department>English and Philosphy</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-english-and-philosophy/english-education-specialization/</plink>
+		</program>
+	</department>
+	<department name="Health and Exercise Science">
+		<advisement_image>advise_healthExercise</advisement_image>
+		<contact_image>contact_healthExercise</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>You have chosen a major in the Health and Exercise Science Department. As a full-time or part-time student, you will need to meet with an Academic Advisor to order to receive advisement clearance before you will be able to register for classes. It is your responsibility to meet with one of the department’s faculty advisors each semester. We encourage you to meet regularly with an advisor throughout the year.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about “Advisement Week” for your department/major.
+
+You may meet with any of the Health and Exercise Science faculty listed in the faculty tab. In order to build continuity in your educational plan and successfully complete your academic program, we suggest that you meet with the same faculty member each semester. You are not assigned to one specific academic advisor.
+
+In addition, the Department Administrative Assistant, Cindy Tedesco, may also be of assistance to you.</department_advise_info>
+		<department_chair>Michael Paul</department_chair>
+		<department_email>ctedesco@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_hesd</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5328</department_number>
+		<department_office>Health and Physical
+Education HPE 225</department_office>
+		<department_summary>The mission of the Health and Exercise Science department is to assist students in making informed career choices in Health, Exercise Science, Physical Education and Occupational Therapy. This is achieved through in depth analysis of appropriate course work, and support from specialized faculty.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/</department_url>
+		<faculty name="William McHugh" lastname="McHugh">
+			<department>Health and Exercise Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=William&amp;instructor_lastname=McHugh</contact>
+			<fimage></fimage>
+			<number>973-328-2488</number>
+			<email>wmchugh@ccm.edu</email>
+		</faculty>
+        <faculty name="Kelly Miniter" lastname="Miniter">
+            <department>Health and Exercise Science</department>
+            <contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kelly&amp;instructor_lastname=Miniter</contact>
+            <fimage></fimage>
+            <number>973-328-5335</number>
+            <email>kminiter@ccm.edu</email>
+        </faculty>
+        <faculty name="Bryan Lemme" lastname="Lemme">
+            <department>Health and Exercise Science</department>
+            <contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Bryan&amp;instructor_lastname=Lemme</contact>
+            <fimage></fimage>
+            <number>973-328-5393</number>
+            <email>blemme@ccm.edu</email>
+        </faculty>
+		<faculty name="Michael Paul" lastname="Paul">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Michael&amp;instructor_lastname=Paul</contact>
+			<fimage>chair_paul_michael</fimage>
+			<number>973-328-5327</number>
+			<email>mpaul@ccm.edu</email>
+			<department>Health and Exercise Science</department>
+		</faculty>
+		<faculty_placeholder_image>hes_bevel</faculty_placeholder_image>
+		<map>
+			<lat>40.857733</lat>
+			<lng>-74.581658</lng>
+			<msnippet>HPE 225</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>0</floor>
+		</map>
+		<program name="0950 - Certificate of Achievement - Personal Trainer">
+			<department>Health and Exercise Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/personal-trainer/</plink>
+		</program>
+		<program name="2155 - A.S. in Occupational Therapy Assistant">
+			<department>Health and Exercise Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/occupational-therapy-assistant/</plink>
+		</program>
+		<program name="2156 - A.S. in Public Health">
+			<department>Health and Exercise Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/public-health/</plink>
+		</program>
+		<program name="2960 - A.S. in Exercise Science">
+			<department>Health and Exercise Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/exercise-science/</plink>
+		</program>
+		<program name="2960 - TEPED - A.S. in Exercise Science Specialization">
+			<department>Health and Exercise Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-health-and-exercise-science/teacher-educationphysical-education/</plink>
+		</program>
+	</department>
+	<department name="History and Political Science">
+		<advisement_image></advisement_image>
+		<contact_image>contact_historyPolitical</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>You have chosen a major in the History and Political Science Department.
+            
+As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). In order to build a relationship and have continuity in your educational planning, it is advisable to meet with the same faculty member each semester for advisement.
+
+For students majoring in Humanities &amp; Social Sciences/Liberal Arts (P1130), contact the office of the Dean of Liberal Arts, Dr Bruce Dutra, Cohen Hall 253, bdutra@ccm.edu, 973-328-5401, and you will be referred to a specific faculty member(s) for academic advisement.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about "Advisement Week" for your department/major.</department_advise_info>
+		<department_chair>Michael Parrella</department_chair>
+		<department_email>mparrella@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_history</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5641</department_number>
+		<department_office>DeMare Hall DH 300</department_office>
+		<department_summary>The Department of History and Political Science offers a rich variety of first- and second-year courses that satisfy general education, diversity, and elective requirements for the Liberal Arts degree and other degree programs across the college’s curricula. The Department believes that emphasis on student participation, as well as on written expression, promotes comprehension and lasting appreciation of key course concepts and values.
+
+Students have a choice of History courses—from ones that provide surveys of broad historical epochs to others that detail shorter eras of time and place. Departmental courses focus on the evolution of European, American and non-western societies and traditions, and on an understanding of the development of social, political, religious, and economic institutions.
+
+The Department offers more than a half-dozen different courses in Political Science that provide an overview of American government and its institutions, a survey of state and local governments, and an introduction to the nature and problems of international politics. Courses are also offered that examine government systems comparatively and provide an analysis of civil liberties and basic rights and freedoms.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-history-and-political-science/</department_url>
+		<faculty name="James Bising" lastname="Bising">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=James%20Dr,&amp;instructor_lastname=Bising</contact>
+			<fimage>bising_james</fimage>
+			<number>973-328-5642</number>
+			<email>jbising@ccm.edu</email>
+		</faculty>
+		<faculty name="Candace Halo" lastname="Halo">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr%2E%20Candace&amp;instructor_lastname=Halo</contact>
+			<fimage></fimage>
+			<number>973-328-5648</number>
+			<email>chalo@ccm.edu</email>
+		</faculty>
+		<faculty name="Rita Heller" lastname="Heller">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr%2E%20Rita&amp;instructor_lastname=Heller</contact>
+			<number>973-328-5647</number>
+			<email>rheller@ccm.edu</email>
+			<fimage>heller_rita</fimage>
+		</faculty>
+		<faculty name="Maria Lee" lastname="Lee">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Maria&amp;instructor_lastname=Lee</contact>
+			<fimage>lee_maria</fimage>
+			<number>973-328-5636</number>
+			<email>mlee@ccm.edu</email>
+		</faculty>
+		<faculty name="Michael Parrella" lastname="Parrella">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr.%20Michael&amp;instructor_lastname=Parrella</contact>
+			<fimage>ic_history</fimage>
+			<number>973-328-5640</number>
+			<email>mparrella@ccm.edu</email>
+			<department>History and Political Science</department>
+		</faculty>
+		<faculty name="Craig Pilant" lastname="Pilant">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dr%2E%20Craig&amp;instructor_lastname=Pilant</contact>
+			<fimage>pilant_craig</fimage>
+			<number>973-328-5605</number>
+			<email>cpilant@ccm.edu</email>
+		</faculty>
+		<faculty name="Mark Washburne" lastname="Washburne">
+			<department>History and Political Science</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mark&amp;instructor_lastname=Washburne</contact>
+			<fimage>washburne_mark</fimage>
+			<number>973-328-5646</number>
+			<email>mwashburne@ccm.edu</email>
+		</faculty>
+        <map>
+            <lat>40.857640</lat>
+            <lng>-74.580152</lng>
+            <msnippet>DH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<faculty_placeholder_image>history_placeholder</faculty_placeholder_image>
+		<program name="2260 - A.S. in Public Administration">
+			<department>History and Political Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-history-and-political-science/public-administration/</plink>
+		</program>
+		<program name="1130 - A.A. in Social Studies (History) Education Specialization">
+			<department>History and Political Science</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-history-and-political-science/social-studies-history-education-specialization/</plink>
+		</program>
+	</department>
+	<department name="Hospitality Management and Culinary Arts">
+        <advisement_image>advise_hospitalityCulinary</advisement_image>
+		<contact_image>contact_hospitalityCulinary</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>If you are a full-time Culinary Arts or Hospitality Major (Program Numbers 0420, 0421, 3420, 3425, 3434), you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. If you are a part-time HCA student, you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary).
+            
+Registration for the spring and fall semester begins in early November and April, respectively.
+
+You may see any Hospitality and Culinary Arts faculty member for advisement during their regular office hours or advisement hours. Appointments are recommended.
+            </department_advise_info>
+        <department_calendar>https://calendar.google.com/calendar/embed?src=ccmhoscul%40gmail.com&amp;ctz=America/New_York</department_calendar>
+		<department_chair>Mark Cosgrove</department_chair>
+		<department_email>sstepan@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_hospitality</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5652</department_number>
+		<department_office>Student Community Center
+SCC 241</department_office>
+		<department_summary>Hospitality Management is the academic study of the hospitality industry, Culinary Arts is the preparation, cooking and presentation of food, usually in the form of meals. Other courses within our program provide a focus on management of Hospitality operations and utilize computer simulations to bring Hotel and Restaurant management into the classroom. </department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/BMET/hospitality/</department_url>
+		<faculty name="Mark Cosgrove" lastname="Cosgrove">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mark&amp;instructor_lastname=Cosgrove</contact>
+			<fimage>chair_cosgrove_mark</fimage>
+			<number>973-328-5652</number>
+			<email>mcosgrove@ccm.edu</email>
+			<department>Hospitality Management and Culinary Arts</department>
+		</faculty>
+		<faculty name="Najib Iftikhar" lastname="Iftikhar">
+			<department>Hospitality Management and Culinary Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Najib&amp;instructor_lastname=Iftikhar</contact>
+			<fimage>iftikhar</fimage>
+			<number>973-328-5667</number>
+			<email>niftikhar@ccm.edu</email>
+		</faculty>
+		<faculty name="Meghann Miller" lastname="Miller">
+			<department>Hospitality Management and Culinary Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Meghann&amp;instructor_lastname=Miller</contact>
+			<fimage></fimage>
+			<number>973-328-5609</number>
+			<email>mmiller@ccm.edu</email>
+		</faculty>
+		<faculty name="Susan Stepan" lastname="Stepan">
+			<department>Hospitality Management and Culinary Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Susan&amp;instructor_lastname=Stepan</contact>
+			<fimage></fimage>
+			<number>973-328-5629</number>
+			<email>sstepan@ccm.edu</email>
+		</faculty>
+		<faculty name="Anthony Ventrella" lastname="Ventrella">
+			<department>Hospitality Management and Culinary Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Anthony&amp;instructor_lastname=Ventrella</contact>
+			<fimage></fimage>
+			<number>973-329-5609</number>
+			<email>avantrella@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>hca_placeholder</faculty_placeholder_image>
+        <map>
+            <lat>40.860119</lat>
+            <lng>-74.580344</lng>
+            <msnippet>SCC 241</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="0420 - Certificate in Culinary Arts and Science">
+			<department>Hospitality Management and Culinary Arts</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/culinaryarts/#certificatesofachievementtext</plink>
+		</program>
+		<program name="0421 - Certificate in Restaurant Mgt. and Event Planning">
+			<department>Hospitality Management and Culinary Arts</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/hospitality/#certificatesofachievementtext</plink>
+		</program>
+		<program name="3420 - A.A.S. in Hospitality Management">
+			<department>Hospitality Management and Culinary Arts</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/hospitality/#degreestext</plink>
+		</program>
+		<program name="3425 - A.A.S. in Culinary Arts and Science">
+			<department>Hospitality Management and Culinary Arts</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/culinaryarts/#degreestext</plink>
+		</program>
+		<program name="3434 - A.A.S. in Restaurant and Culinary Management">
+			<department>Hospitality Management and Culinary Arts</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/hospitality/#AASRestaurant</plink>
+		</program>
+	</department>
+	<department name="Information Technologies">
+		<advisement_image>advise_informationTechnologies</advisement_image>
+		<contact_image>contact_informationTechnologies</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>If you are a full-time Computer Information Systems or Digital Media Technology Major (Program Numbers 2500, 3501, 3502, 3503, 3510, 3530), you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. If you are a part-time CIS student, you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). 
+
+Registration for the spring and fall semester begins in early November and April, respectively. 
+
+You may see any Information Technologies Department faculty member for advisement during their regular office hours or advisement hours. Appointments are recommended.</department_advise_info>
+		<department_calendar>https://www.google.com/calendar/embed?src=ccmitdept%40gmail.com&amp;ctz=America/New_York</department_calendar>
+        <department_tutor_link>https://www.google.com/calendar/embed?src=ccmitdept%40gmail.com&amp;ctz=America/New_York</department_tutor_link>
+        <department_tutor_location>Emeriti Hall 223</department_tutor_location>
+        <tutoring_image>tutoring_informationTechnologies</tutoring_image>
+		<department_chair>Nancy Binowski</department_chair>
+		<department_email>nbinowski@ccm.edu</department_email>
+		<department_facebook>https://www.facebook.com/ccmITdept</department_facebook>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="true">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_infotech</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5780</department_number>
+		<department_office>Emeriti Hall EH 225</department_office>
+		<department_office_hours>Mon-Fri 8:30am-4:00pm</department_office_hours>
+		<department_summary>The CCM Department of Information Technologies provides instruction, advisement and tutoring in Computer Information Systems and Digital Media Technology. We offer degrees and certificates in Computer Science, Digital Media, Game Development, Information Security, Management Information Systems, Technical Support and Web Development.</department_summary>
+		<department_twitter>https://www.twitter.com/ccmITdept</department_twitter>
+		<department_url>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/</department_url>
+		<faculty name="Nancy Binowski" lastname="Binowski">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Nancy&amp;instructor_lastname=Binowski</contact>
+			<number>973-328-5780</number>
+			<email>nbinowski@ccm.edu</email>
+			<fimage>chair_binowski_nancy</fimage>
+			<department>Information Technologies</department>
+		</faculty>
+		<faculty name="Colleen Bamford" lastname="Bamford">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Colleen&amp;instructor_lastname=Bamford</contact>
+			<fimage>bamford_colleen</fimage>
+			<number>973-328-5669</number>
+			<email>cbamford@ccm.edu</email>
+		</faculty>
+		<faculty name="Jason Sim" lastname="Sim">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jason&amp;instructor_lastname=Sim</contact>
+			<fimage>sim_jason</fimage>
+			<number>973-328-5773</number>
+			<email>jsim@ccm.edu</email>
+		</faculty>
+		<faculty name="Vick Sawh" lastname="Sawh">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Vickram&amp;instructor_lastname=Sawh</contact>
+			<number>973-328-5772</number>
+			<email>vsawh@ccm.edu</email>
+			<fimage>sawh</fimage>
+		</faculty>
+		<faculty name="June Scott" lastname="Scott">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=June&amp;instructor_lastname=Scott</contact>
+			<number>973-328-5788</number>
+			<email>jscott@ccm.edu</email>
+			<fimage>scott</fimage>
+		</faculty>
+		<faculty name="Michael Sidaras-Tirrito" lastname="Sidaras-Tirrito">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Michael&amp;instructor_lastname=Sidaras-Tirrito</contact>
+			<number>973-328-5793</number>
+			<email>mtirrito@ccm.edu</email>
+			<fimage>sidaras_2</fimage>
+		</faculty>
+		<faculty name="Patricia Tamburelli" lastname="Tamburelli">
+			<department>Information Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Patricia&amp;instructor_lastname=Tamburelli</contact>
+			<number>973-328-5799</number>
+			<email>ptamburelli@ccm.edu</email>
+			<fimage>tamburelli</fimage>
+		</faculty>
+		<faculty_placeholder_image>it_bevel</faculty_placeholder_image>
+		<map>
+			<lat>40.858487</lat>
+			<lng>-74.578521</lng>
+			<msnippet>EH 225</msnippet>
+			<mtitle>Department Office</mtitle>
+            <floor>1</floor>
+		</map>
+		<program name="2500 - A.S. in Computer Science">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/computer-science-2/</plink>
+		</program>
+		<program name="3501 - A.A.S. in Management Info Systems">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/management-information-systems-2/</plink>
+		</program>
+		<program name="3502 - A.A.S. in Technical Support">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/technical-support/</plink>
+		</program>
+		<program name="3503 - A.A.S. in Administrative Support">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/administrative-support/</plink>
+		</program>
+		<program name="3504 - A.A.S. in Game Development">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/game-development</plink>
+		</program>
+		<program name="3510 - A.A.S. in Technical Studies">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/technical-studies/</plink>
+		</program>
+		<program name="3530 - A.A.S. in Digital Media Technology">
+			<department>Information Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-information-technologies/digital-media-technology/</plink>
+		</program>
+		<program name="3525 - A.A.S. Information Technology">
+			<department>Information Technologies</department>
+			<plink>http://catalog.ccm.edu/credit/areasofstudy/infotech/</plink>
+		</program>
+	</department>
+	<department name="Landscape and Horticultural Technologies">
+		<contact_image>contact_landscapeHorticulture</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>As a student majoring in Landscape and Horticultural Technology, you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester.
+            
+You may meet with any of the Landscape and Horticultural Technology faculty. All the LHT Faculty are committed to student success, but in order to build a relationship and have continuity in your educational planning, you may find it more helpful to meet with the same faculty member each semester for advisement.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about “Advisement Week” for Landscape and Horticultural Technology students.
+</department_advise_info>
+		<advisement_image>advise_landscapeHorticulture</advisement_image>
+		<department_chair>Brian Oleksak</department_chair>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_lht</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_office>Landscape and Hort. Tech. LHT 103</department_office>
+		<department_summary>Welcome to Landscape and Horticultural Technology - the original “green” department. In our department, green means more than just the color of plants - it signifies a commitment to conserving our natural resources through sustainable landscape design and management.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/</department_url>
+		<faculty name="Brian Oleksak" lastname="Oleksak">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Brian&amp;instructor_lastname=Oleksak</contact>
+			<fimage>chair_oleksak_brian</fimage>
+			<number>973-328-5363</number>
+			<email>boleksak@ccm.edu</email>
+			<department>Landscape and Horticultural Technologies</department>
+		</faculty>
+		<faculty name="Craig Tolley" lastname="Tolley">
+			<department>Landscape and Horticultural Technologies</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Craig&amp;instructor_lastname=Tolley</contact>
+			<fimage></fimage>
+			<number>973-328-2480</number>
+			<email>ctolley@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>bush_placeholder</faculty_placeholder_image>
+        <map>
+            <lat>40.855338</lat>
+            <lng>-74.577978</lng>
+            <msnippet>LHT 103</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="3321 - A.A.S. in Agribusiness">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/agribusiness/</plink>
+		</program>
+		<program name="3320 - A.A.S. in Landscape Management and Design">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/landscape-management-and-design/</plink>
+		</program>
+		<program name="3324 - A.A.S. in Turf and Turfgrass Management">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/turf-and-turfgrass-management/</plink>
+		</program>
+		<program name="0323 - Certificate of Achievement in Garden Center">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/garden-center/</plink>
+		</program>
+		<program name="0321 - Certificate of Achievement in Grounds Maintenance">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/ground-maintenance/</plink>
+		</program>
+		<program name="0322 - Certificate of Achievement in Landscape Contractor">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/landscape-contractor/</plink>
+		</program>
+		<program name="0320 - Certificate of Achievement in Landscape Design">
+			<department>Landscape and Horticultural Technologies</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-landscape-and-horticultural-technology/landscape-design/</plink>
+		</program>
+	</department>
+	<department name="Languages and ESL, Study Abroad, and College Student Success">
+		<advisement_image>advise_languagesESL</advisement_image>
+		<contact_image>contact_languagesESL</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>You have chosen a major in the Languages and ESL Department.
+
+If you are an International Studies or an English as a Second Language student, you must meet with Prof. Hart to receive advisement clearance before registering for classes each semester.  Please keep in mind that academic advisors are available throughout the year for more than just advisement clearance. We encourage you to meet with Prof. Hart to talk about career advice, bachelor’s programs, and other topics related to your academic and career goals in International Studies. Prof. Hart can talk to you about study abroad opportunities as well.
+
+As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). In order to build a relationship and have continuity in your educational planning, it is advisable to meet with the same faculty member each semester for advisement.
+
+For students majoring in Humanities &amp; Social Sciences/Liberal Arts (P1130), contact the office of the Dean of Liberal Arts, Dr Bruce Dutra, Cohen Hall 253, bdutra@ccm.edu, 973-328-5401, and you will be referred to a specific faculty member(s) for academic advisement.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about "Advisement Week" for your department/major.</department_advise_info>
+		<department_calendar>http://www.ccm.edu/Media/Website%20Resources/pdf/academics/languages/study_abroad_process.pdf</department_calendar>
+		<department_chair>James Hart</department_chair>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_languages</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_office>Emeriti Hall EH 120</department_office>
+        <department_summary>The mission of the Languages and ESL Department is to connect with our community and to connect students with the world. To that end, we offer language instruction that stresses communication and culture.
+            
+The Languages program focuses on proficiency acquisition and offers twelve (12) fully-transferable languages that you can use to fulfill your graduation requirements: American Sign Language, Arabic, Chinese, French, German, Hebrew, Italian, Japanese, Latin, Portuguese, Russian and Spanish. The English as a Second Language (ESL) program, prepares students whose native language is not English for the challenges of education in the United States at the college level.
+            
+The Languages and ESL Department also houses the International Studies program,  CCM’s Study Abroad Program, and the College Student Success course.  The mission of the International Studies program is to provide students with the general education course work and background in international studies needed to transfer to a similar program at a 4-year institution. In addition to general education course work, students are required to take courses in culture, geography, world literature, and four semesters of a foreign language. The Study Abroad Program provides students with access to a global education. CCM offers its students study abroad opportunities in 31 countries through the College Consortium for International Studies (CCIS). The College Student Success course (CSS 011 - N2 Credits) is designed to assist first year students in their adjustment and success with the college experience.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberalarts/languages/</department_url>
+		<faculty name="James Hart" lastname="Hart">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=James&amp;instructor_lastname=Hart</contact>
+			<fimage>chair_hart_james</fimage>
+			<number>973-328-2486</number>
+			<email>jhart@ccm.edu</email>
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+		</faculty>
+		<faculty name="Nadir Kaddour" lastname="Kaddour">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Nadir&amp;instructor_lastname=Kaddour</contact>
+			<fimage>kaddour_nadir</fimage>
+			<number>973-328-5406</number>
+			<email>nkaddour@ccm.edu</email>
+		</faculty>
+		<faculty name="Marcia Picallo" lastname="Picallo">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Marcia&amp;instructor_lastname=Picallo</contact>
+			<fimage>picallo_2013</fimage>
+			<number>973-328-5418</number>
+			<email>mpicallo@ccm.edu</email>
+		</faculty>
+		<faculty name="Simin Rooholamini" lastname="Rooholamini">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Simin&amp;instructor_lastname=Rooholamini</contact>
+			<fimage></fimage>
+			<number>973-328-5407</number>
+			<email>srooholamini@ccm.edu</email>
+		</faculty>
+		<faculty name="Mirna Rosende" lastname="Rosende">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mirna&amp;instructor_lastname=Rosende</contact>
+			<fimage>rosende_lg</fimage>
+			<number>973-328-5792</number>
+			<email>mrosende@ccm.edu</email>
+		</faculty>
+		<faculty name="Brian Schorr" lastname="Schorr">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Brian&amp;instructor_lastname=Schorr</contact>
+			<fimage></fimage>
+			<number>973-328-5408</number>
+			<email>bschorr@ccm.edu</email>
+		</faculty>
+		<faculty name="Stuart Siegelman" lastname="Siegelman">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Stuart&amp;instructor_lastname=Siegelman</contact>
+			<fimage></fimage>
+			<number>973-328-5419</number>
+			<email>ssiegelman@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>esl_books1</faculty_placeholder_image>
+        <map>
+            <lat>40.8581926</lat>
+            <lng>-74.5785000</lng>
+            <msnippet>EH 120</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>2</floor>
+        </map>
+        
+		<program name="0961 - Course in English as a Second Language">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-languages-and-esl/english-as-a-second-language/</plink>
+		</program>
+		<program name="Courses in Foreign Languages">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-languages-and-esl/languages/</plink>
+		</program>
+		<program name="1160 - A.A. in International Studies">
+			<department>Languages and ESL, Study Abroad, and College Student Success</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-languages-and-esl/international-studies/</plink>
+		</program>
+        
+        <program name="011 - Course in College Student Success">
+            <department>Languages and ESL, Study Abroad, and College Student Success</department>
+            <plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-languages-and-esl/college-student-success-course/</plink>
+        </program>
+        
+        
+        <program name="Study Abroad">
+            <department>Languages and ESL, Study Abroad, and College Student Success</department>
+            <plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-languages-and-esl/study-abroad/</plink>
+        </program>
+        
+        
+	</department>
+	<department name="Mathematics">
+		<advisement_image></advisement_image>
+		<contact_image>contact_mathematics</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). 
+
+Registration for the spring and fall semester begins in early November and April, respectively. 
+
+You may see any faculty member whose area of study matches your own for advisement during their regular office hours or advisement hours. Appointments are recommended.</department_advise_info>
+		<department_chair>Alexis Thurman</department_chair>
+		<department_email>athurman@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="true">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_math</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5707</department_number>
+		<department_office>Sheffield Hall SH 319</department_office>
+		<department_summary>You may be here to learn about a single course to prepare you for your profession, or you may wish to study a series of courses leading to a major in mathematics, engineering, or science. Perhaps you simply wish to brush up on your math skills. Whatever you need, we can help you find it.</department_summary>
+        
+        
+        <department_tutor_description>The Math Center, staffed by faculty, paraprofessionals and peer tutors, offers free tutorial assistance and workshops to enhance student learning in mathematics, physics and engineering. These services are offered through individual and group appointments or on a drop-in basis.</department_tutor_description>
+        <department_tutor_link>http://www.ccm.edu/admissions/placement-testing-2/testing-center/math-center-and-math-tutoring/</department_tutor_link>
+        <department_tutor_location>DeMare Hall DH 156</department_tutor_location>
+		<department_url>http://www.ccm.edu/academics/divdep/bmet/department-of-mathematics/</department_url>
+		<faculty name="Catherine Chambers" lastname="Chambers">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Catherine&amp;instructor_lastname=Chambers</contact>
+			<fimage>chambers_catherine_sm</fimage>
+			<number>973-328-5715</number>
+			<email>cchambers@ccm.edu</email>
+		</faculty>
+		<faculty name="N. Lee Collins" lastname="Collins">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=N.%20Lee&amp;instructor_lastname=Collins</contact>
+			<fimage></fimage>
+			<number>973-328-5714</number>
+			<email>ncollins@ccm.edu</email>
+		</faculty>
+		<faculty name="Kathryn Edwards" lastname="Edwards">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kathryn&amp;instructor_lastname=Edwards</contact>
+			<fimage></fimage>
+			<number>973-328-5713</number>
+			<email>kedwards@ccm.edu</email>
+		</faculty>
+		<faculty name="Kelly Fitzpatrick" lastname="Fitzpatrick">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kelly&amp;instructor_lastname=Fitzpatrick</contact>
+			<fimage>fitzpatrick_kelly_sm</fimage>
+			<number>973-328-5765</number>
+			<email>kfitzpatrick@ccm.edu</email>
+		</faculty>
+		<faculty name="Jeffrey Jones" lastname="Jones">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jeffrey&amp;instructor_lastname=Jones</contact>
+			<fimage></fimage>
+			<number>973-328-5718</number>
+			<email>jjones@ccm.edu</email>
+		</faculty>
+		<faculty name="Roger McCoach" lastname="McCoach">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Roger&amp;instructor_lastname=McCoach</contact>
+			<fimage>mccoach_roger_sm</fimage>
+			<number>973-328-5712</number>
+			<email>rmccoach@ccm.edu</email>
+		</faculty>
+		<faculty name="Meimee Persau" lastname="Persau">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Meimee&amp;instructor_lastname=Persau</contact>
+			<fimage></fimage>
+			<number>973-328-5769</number>
+			<email>mpersau@ccm.edu</email>
+		</faculty>
+		<faculty name="Deborah Poetsch" lastname="Poetsch">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Deborah&amp;instructor_lastname=Poetsch</contact>
+			<fimage>poetsch_deborah_sm</fimage>
+			<number>973-328-5764</number>
+			<email>dpoetsch@ccm.edu</email>
+		</faculty>
+		<faculty name="Doreen Sabella" lastname="Sabella">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Doreen&amp;instructor_lastname=Sabella</contact>
+			<fimage></fimage>
+			<number>973-328-5708</number>
+			<email>dsabella@ccm.edu</email>
+		</faculty>
+		<faculty name="Jorge Sarmiento" lastname="Sarmiento">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jorge&amp;instructor_lastname=Sarmiento</contact>
+			<fimage>sarmiento_jorge_sm</fimage>
+			<number>973-328-5719</number>
+			<email>jsarmiento@ccm.edu</email>
+		</faculty>
+		<faculty name="Kathryn Shuck" lastname="Shuck">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kathryn&amp;instructor_lastname=Shuck</contact>
+			<fimage>shuck_kathryn_sm</fimage>
+			<number>973-328-5709</number>
+			<email>kshuck@ccm.edu</email>
+		</faculty>
+		<faculty name="Deanne Stigliano" lastname="Stigliano">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Deanne&amp;instructor_lastname=Stigliano</contact>
+			<fimage>stigliano_deanne_sm</fimage>
+			<number>973-328-5706</number>
+			<email>dstigliano@ccm.edu</email>
+		</faculty>
+		<faculty name="Alexis Thurman" lastname="Thurman">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Alexis&amp;instructor_lastname=Thurman</contact>
+			<fimage>chair_thurman_alexis</fimage>
+			<number>973-328-5707</number>
+			<email>athurman@ccm.edu</email>
+			<department>Mathematics</department>
+		</faculty>
+		<faculty name="Susan Winston" lastname="Winston">
+			<department>Mathematics</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Susan&amp;instructor_lastname=Winston</contact>
+			<fimage></fimage>
+			<number>973-328-5717</number>
+			<email>swinston@ccm.edu</email>
+		</faculty>
+        <faculty_placeholder_image>math_placeholder</faculty_placeholder_image>
+        <map>
+            <lat>40.8589086</lat>
+            <lng>-74.5790000</lng>
+            <msnippet>SH 319</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+        <program name="2150 - A.S. in Mathematics">
+			<department>Mathematics</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-mathematics/mathematics/</plink>
+		</program>
+		<program name="2150 - A.S. in Mathematics Education Specialization">
+			<department>Mathematics</department>
+			<plink>http://www.ccm.edu/academics/divdep/bmet/department-of-mathematics/mathematics-education-specialization/</plink>
+		</program>
+	</department>
+	<department name="Music, Dance and Performing Arts">
+		<advisement_image></advisement_image>
+		<contact_image>contact_musicDance</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>If you are a full-time Music, Musical Theatre, Music Technology, or Fine Arts Major (Program Numbers 1190, 2006, 2170, 2171, 4170), you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester.  If you are a part-time Music, Dance or Performing Arts student, you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary).
+
+Registration for the spring and fall semester begins in early November and April, respectively.
+
+You may see any Music Department faculty member for advisement during their regular office hours or advisement hours. If you are a Dance Major your faculty advisor is Professor Duncan. Appointments are recommended.</department_advise_info>
+		<department_chair>Marielaine Mammon</department_chair>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_music</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5780</department_number>
+		<department_office>Music Technology Center
+MTC 202</department_office>
+		<department_summary>Welcome aspiring musicians, composers, dancers, performers, and technicians. Whether your goal is a career in music performance, education, composition, musical theatre, music recording, dance or performing arts, we have a program to suit your needs. We offer five unique degree programs designed to prepare students for entry into the increasingly competitive job market, or transfer to a four-year institution.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/</department_url>
+		<faculty name="Jose Bevia" lastname="Bevia">
+			<department>Music, Dance and Performing Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jose&amp;instructor_lastname=Bevia</contact>
+			<fimage>bevia</fimage>
+			<number>973-328-5432</number>
+			<email>jbevia@ccm.edu</email>
+		</faculty>
+		<faculty name="Joseph Bilotti" lastname="Bilotti">
+			<department>Music, Dance and Performing Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Joseph&amp;instructor_lastname=Bilotti</contact>
+			<fimage>bilotti</fimage>
+			<number>973-328-5428</number>
+			<email>jbilotti@ccm.edu</email>
+		</faculty>
+		<faculty name="Todd Collins" lastname="Collins">
+			<department>Music, Dance and Performing Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Todd&amp;instructor_lastname=Collins</contact>
+			<fimage></fimage>
+			<number>973-328-5409</number>
+			<email>tcollins@ccm.edu</email>
+		</faculty>
+		<faculty name="Terence Duncan" lastname="Duncan">
+			<department>Music, Dance and Performing Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Terence&amp;instructor_lastname=Duncan</contact>
+			<fimage>duncan</fimage>
+			<number>973-328-5326</number>
+			<email>tduncan@ccm.edu</email>
+		</faculty>
+		<faculty name="Richard Gradone" lastname="Gradone">
+			<department>Music, Dance and Performing Arts</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Richard&amp;instructor_lastname=Gradone</contact>
+			<fimage>gradone</fimage>
+			<number>973-328-5433</number>
+			<email>rgradone@ccm.edu</email>
+		</faculty>
+		<faculty name="Marielaine Mammon" lastname="Mammon">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Marielaine&amp;instructor_lastname=Mammon</contact>
+			<fimage>chair_mammon_marielaine</fimage>
+			<number>973-328-5434</number>
+			<email>mmammon@ccm.edu</email>
+			<department>Music, Dance and Performing Arts</department>
+		</faculty>
+		<faculty_placeholder_image>musicnote</faculty_placeholder_image>
+        <map>
+            <lat>40.859957</lat>
+            <lng>-74.578932</lng>
+            <msnippet>MTC 202</msnippet>
+            <mtitle>Music Technology Center</mtitle>
+            <floor>1</floor>
+        </map>
+		<program name="1190 - A.A. in Liberal Arts and Sciences - Humanities/Music Option">
+			<department>Music, Dance and Performing Arts</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/music/</plink>
+		</program>
+		<program name="2006 - A.A. in Musical Theatre">
+			<department>Music, Dance and Performing Arts</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/musical-theatre/</plink>
+		</program>
+		<program name="2170 - A.S. in Music Technology - Music Recording Option">
+			<department>Music, Dance and Performing Arts</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/music-recording/</plink>
+		</program>
+		<program name="2171 - A.S. in Music Technology - Electronic Music Option">
+			<department>Music, Dance and Performing Arts</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/electronic-music/</plink>
+		</program>
+		<program name="4170 - A.F.A. in Fine Arts Dance">
+			<department>Music, Dance and Performing Arts</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-music-dance-and-performing-arts/dance/</plink>
+		</program>
+	</department>
+	<department name="Nursing">
+        <advisement_image>advise_nursing</advisement_image>
+		<contact_image>contact_nursing2</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+		<department_advise_info>Academic Advisors are available to help you select the courses that best support your educational and career goals as well as provide direction to the many resources and support services available at the college. Each semester, full-time students pursuing a degree at CCM must see their Academic Advisor(s) to obtain advisement clearance in order to register for classes</department_advise_info>
+		<department_chair>Kathleen Horan</department_chair>
+		<department_email>khoran@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="true">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_nursing</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5352</department_number>
+		<department_office>Cohen Hall CH 300</department_office>
+		<department_summary>The Nursing program is fully accredited by the Accreditation Commission for Education in Nursing. Graduates of the program are granted an Associate in Applied Science degree and have attained the academic requirements to apply for the  National Council Licensing Examination (NCLEX) and Registered Nurse Licensure. The program offers a balance of general education and nursing courses to prepare students for Registered Nurse positions.</department_summary>
+        <department_tutor_description>The Science Center at CCM provides free tutoring services for Nursing students. Tutoring is done by faculty and students who have excelled in their studies and have a desire to share their knowledge. The Science Center offers self-study hours as well as scheduled appointments.</department_tutor_description>
+        <department_tutor_link>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-biology-and-chemistry/tutoring-center-science/</department_tutor_link>
+		<department_url>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-nursing/</department_url>
+		<faculty name="Vivek Agnihotri" lastname="Agnihotri">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Vivek&amp;instructor_lastname=Agnihotri</contact>
+			<fimage>agnihotri</fimage>
+			<number>973-328-5320</number>
+			<email>vagnihotri@ccm.edu</email>
+		</faculty>
+		<faculty name="Lesley Anne Andrew" lastname="Andrew">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Lesley&amp;instructor_lastname=Andrew</contact>
+			<fimage>andrew_leslie_sm</fimage>
+			<number>973-328-5326</number>
+			<email>landrew@ccm.edu</email>
+		</faculty>
+		<faculty name="Jutta Braun" lastname="Braun">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jutta&amp;instructor_lastname=Braun</contact>
+			<fimage>braun_sm</fimage>
+			<number>973-328-5348</number>
+			<email>jbraun@ccm.edu</email>
+		</faculty>
+		<faculty name="Elizabeth Elliott" lastname="Elliott">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Elizabeth&amp;instructor_lastname=Elliott</contact>
+			<fimage></fimage>
+			<number>973-328-5346</number>
+			<email>eelliott@ccm.edu</email>
+		</faculty>
+		<faculty name="Samir Samour" lastname="Samour">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Samir&amp;instructor_lastname=Samour</contact>
+			<fimage>samir_samour</fimage>
+			<number>973-328-5344</number>
+			<email>ssamour@ccm.edu</email>
+		</faculty>-
+		<faculty name="Therese Farmer" lastname="Farmer">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Therese&amp;instructor_lastname=Farmer</contact>
+			<fimage>therese_farmer</fimage>
+			<number>973-328-5347</number>
+			<email>tfarmer@ccm.edu</email>
+		</faculty>
+		<faculty name="Mary Gerepka" lastname="Gerepka">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Mary&amp;instructor_lastname=Gerepka</contact>
+			<fimage>gerepka_sm</fimage>
+			<number>973-328-5387</number>
+			<email>mgerepka@ccm.edu</email>
+		</faculty>
+		<faculty name="Suzanna Gilmore" lastname="Gilmore">
+			<department>Nursing</department>
+			<contact> http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Suzanne&amp;instructor_lastname=Gilmore</contact>
+			<fimage>s_gilmore_fac_dir</fimage>
+			<number>973-328-5342</number>
+			<email>sgilmore@ccm.edu</email>
+		</faculty>
+		<faculty name="Kathleen Horan" lastname="Horan">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kathleen&amp;instructor_lastname=Horan</contact>
+			<fimage>chair_horan_kathleen</fimage>
+			<number>973-328-5352</number>
+			<email>khoran@ccm.edu</email>
+			<department>Nursing</department>
+		</faculty>
+		<faculty name="Ellen Mascia" lastname="Mascia">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Ellen&amp;instructor_lastname=Mascia</contact>
+			<fimage>mascia_th</fimage>
+			<number>973-328-5345</number>
+			<email>emascia@ccm.edu</email>
+		</faculty>
+		<faculty name="Laura Parker" lastname="Parker">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Laura&amp;instructor_lastname=Parker</contact>
+			<fimage>parker_sm</fimage>
+			<number>973-328-5349</number>
+			<email>lparker@ccm.edu</email>
+		</faculty>
+		<faculty name="Kathleen Prokop" lastname="Prokop">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kathleen&amp;instructor_lastname=Prokop</contact>
+			<fimage>prokop_sm</fimage>
+			<number>973-328-5215</number>
+			<email>kprokop@ccm.edu</email>
+		</faculty>
+		<faculty name="Buffy Reilly" lastname="Reilly">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Buffy&amp;instructor_lastname=Reilly</contact>
+			<fimage>reilly_buffy_sm</fimage>
+			<number>973-328-5343</number>
+			<email>breilly@ccm.edu</email>
+		</faculty>
+		<faculty name="Bernadette Schicho" lastname="Schicho">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Bernadette&amp;instructor_lastname=Schicho</contact>
+			<fimage>schicho_bernadette_sm</fimage>
+			<number>973-328-5369</number>
+			<email>bschicho@ccm.edu</email>
+		</faculty>
+		<faculty name="Celeste Wayne" lastname="Wayne">
+			<department>Nursing</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Celeste&amp;instructor_lastname=Wayne</contact>
+			<fimage>c_wayne_th</fimage>
+			<number>973-328-5380</number>
+			<email>cwayne@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>nursing_bevel</faculty_placeholder_image>
+        <map>
+            <lat>40.8580231</lat>
+            <lng>-74.5792815</lng>
+            <msnippet>CH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="3800 - A.A.S. in Nursing">
+			<department>Nursing</department>
+			<plink>http://www.ccm.edu/academics/divdep/health-programs-natural-sciences/department-of-nursing/nursing-degree/</plink>
+		</program>
+	</department>
+	<department name="Psychology and Education">
+		<advisement_image></advisement_image>
+		<contact_image>contact_psychologyEducation</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>You have chosen a major in the Psychology and Education Department.
+            
+As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). In order to build a relationship and have continuity in your educational planning, it is advisable to meet with the same faculty member each semester for advisement.
+
+For students majoring in Humanities &amp; Social Sciences/Liberal Arts (P1130), contact the office of the Dean of Liberal Arts, Dr Bruce Dutra, Cohen Hall 253, bdutra@ccm.edu, 973-328-5401, and you will be referred to a specific faculty member(s) for academic advisement.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about "Advisement Week" for your department/major.</department_advise_info>
+		<department_chair>John Williford</department_chair>
+		<department_email>cjohnson@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_psych</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5631</department_number>
+		<department_office>DeMare Hall DH 300</department_office>
+		<department_summary>The Department of Psychology and Education is a member of the Division of Liberal Arts. It is comprised of courses and programs in (a) psychology, (b) early childhood education and (c) teacher education. The department supports the liberal arts curriculum and the college’s overall mission to provide students with transferable liberal arts courses, courses to fulfill the general education requirements in numerous curricula, providing a comprehensive background in the behavioral sciences.
+
+Our faculty members are experienced professional educators who keep abreast of their specializations through continuing education credits, public speaking engagements, research, personal counseling, or organizational consulting. These endeavors enrich the overall educational experience for our students and provide a broad exposure to the rich and varied subspecialties of psychology and education.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-psychology-and-education/</department_url>
+		<faculty name="Diana Aria" lastname="Aria">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Diana&amp;instructor_lastname=Aria</contact>
+			<fimage>aria</fimage>
+			<number>973-328-5601</number>
+			<email>daria@ccm.edu</email>
+		</faculty>
+		<faculty name="Barbara Karpinski" lastname="Karpinski">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Barbara&amp;instructor_lastname=Karpinski</contact>
+			<fimage>karpinski</fimage>
+			<number>973-328-5612</number>
+			<email>bkarpinski@ccm.edu</email>
+		</faculty>
+		<faculty name="Kristin Nelson" lastname="Nelson">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Kristin&amp;instructor_lastname=Nelson</contact>
+			<fimage>nelson</fimage>
+			<number>973-328-5617</number>
+			<email>knelson@ccm.edu</email>
+		</faculty>
+		<faculty name="Dolores Reilly" lastname="Reilly">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Dolores&amp;instructor_lastname=Reilly</contact>
+			<fimage>reilly</fimage>
+			<number>973-328-5621</number>
+			<email>dreilly@ccm.edu</email>
+		</faculty>
+		<faculty name="Deborah Sullivan" lastname="Sullivan">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Deborah&amp;instructor_lastname=Sullivan</contact>
+			<fimage></fimage>
+			<number>973-328-5611</number>
+			<email>dsullivan@ccm.edu</email>
+		</faculty>
+		<faculty name="John Williford" lastname="Williford">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=John&amp;instructor_lastname=Williford</contact>
+			<fimage>chair_williford_john</fimage>
+			<number>973-328-5618</number>
+			<email>jwilliford@ccm.edu</email>
+			<department>Psychology and Education</department>
+		</faculty>
+		<faculty name="Frederic Wynn" lastname="Wynn">
+			<department>Psychology and Education</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Frederic&amp;instructor_lastname=Wynn</contact>
+			<fimage>wynn</fimage>
+			<number>973-328-5616</number>
+			<email>fwynn@ccm.edu</email>
+		</faculty>
+		<faculty_placeholder_image>psyched_placeholder</faculty_placeholder_image>
+        <map>
+            <lat>40.857640</lat>
+            <lng>-74.580152</lng>
+            <msnippet>DH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="1130 - A.A. in Social Studies (Psychology) Education Specialization">
+			<department>Psychology and Education</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-psychology-and-education/social-studies-psychology-education-specialization/</plink>
+		</program>
+		<program name="2940 - A.S. in Early Childhood Education">
+			<department>Psychology and Education</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-psychology-and-education/early-childhood-education/</plink>
+		</program>
+		<program name="5134 - Certificate in Early Childhood Development">
+			<department>Psychology and Education</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-psychology-and-education/early-childhood-development/</plink>
+		</program>
+	</department>
+	<department name="Sociology, Economics and Anthropology">
+		<advisement_image></advisement_image>
+		<contact_image>contact_sociologyEconomics</contact_image>
+		<department_address>
+			<line>214 Center Grove Rd</line>
+			<line>Randolph, NJ</line>
+			<line>07869-2086</line>
+		</department_address>
+        <department_advise_info>You have chosen a major in the Sociology, Economics and Anthropology Department.
+            
+As a full-time student you must meet with an Academic Advisor to receive advisement clearance before registering for classes each semester. As a part-time student you are encouraged to meet with an Academic Advisor on a regular basis (although clearance to register is not necessary). In order to build a relationship and have continuity in your educational planning, it is advisable to meet with the same faculty member each semester for advisement.
+
+For students majoring in Humanities &amp; Social Sciences/Liberal Arts (P1130), contact the office of the Dean of Liberal Arts, Dr Bruce Dutra, Cohen Hall 253, bdutra@ccm.edu, 973-328-5401, and you will be referred to a specific faculty member(s) for academic advisement.
+
+Registration for the spring and fall semesters begins in early November and April, respectively. Be on the look out for more information about "Advisement Week" for your department/major.</department_advise_info>
+		<department_chair>Jill Schennum</department_chair>
+		<department_email>vstauffer@ccm.edu</department_email>
+		<department_fragments>
+			<line ischecked="true">ContactUs</line>
+			<line ischecked="true">Faculty</line>
+			<line ischecked="true">ProgramInfo</line>
+			<line ischecked="true">Advise</line>
+			<line ischecked="false">CJAdvise</line>
+			<line ischecked="false">Tutoring</line>
+			<line ischecked="false">PeerTutor</line>
+			<line ischecked="false">Clubs</line>
+			<line ischecked="false">Courses</line>
+		</department_fragments>
+		<department_icon>ic_soc</department_icon>
+		<department_images>
+			<line></line>
+		</department_images>
+		<department_number>973-328-5602</department_number>
+		<department_office>De Mare Hall DH 300</department_office>
+		<department_summary>The Department of Sociology, Economics and Anthropology offers a rich variety of sociology, anthropology, economics, geography, and human services courses. The department offers courses that are required in many of the degree programs at County College of Morris, including the Liberal Arts and Business degree. The department's experienced faculty members have a broad range of interests and expertise, as reflected in the many electives available in the department.</department_summary>
+		<department_url>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-sociology-economics-anthropology/</department_url>
+		<faculty name="Stephen Kaifa" lastname="Kaifa">
+			<department>Sociology, Economics and Anthropology</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Stephen&amp;instructor_lastname=Kaifa</contact>
+			<fimage>kaifa</fimage>
+			<number>973-328-5663</number>
+			<email>skaifa@ccm.edu</email>
+		</faculty>
+		<faculty name="Gerald Kloby" lastname="Kloby">
+			<department>Sociology, Economics and Anthropology</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Gerald%20S.&amp;instructor_lastname=Kloby</contact>
+			<fimage>kloby</fimage>
+			<number>973-328-5604</number>
+			<email>gkloby@ccm.edu</email>
+		</faculty>
+		<faculty name="Jill Schennum" lastname="Schennum">
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Jill&amp;instructor_lastname=Schennum</contact>
+			<fimage>chair_schennum_jill</fimage>
+			<number>973-328-5610</number>
+			<email>jschennum@ccm.edu</email>
+			<department>Sociology, Economics and Anthropology</department>
+		</faculty>
+		<faculty name="Charles Selengut" lastname="Selengut">
+			<department>Sociology, Economics and Anthropology</department>
+			<contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Charles&amp;instructor_lastname=Selengut</contact>
+			<fimage>selengut</fimage>
+			<number>973-328-5608</number>
+			<email>cselengu@ccm.edu</email>
+		</faculty>
+        <faculty name="Karen Danna" lastname="Danna">
+            <department>Sociology, Economics and Anthropology</department>
+            <contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Karen&amp;instructor_lastname=Danna</contact>
+            <fimage></fimage>
+            <number>973-328-5630</number>
+            <email>kdanna@ccm.edu</email>
+        </faculty>
+        
+        <faculty name="Calvin Hoy" lastname="Hoy">
+            <department>Sociology, Economics and Anthropology</department>
+            <contact>http://www3.ccm.edu/directory/directory.aspx?instructor_firstname=Calvin&amp;instructor_lastname=Hoy</contact>
+            <fimage></fimage>
+            <number>973-328-5673</number>
+            <email>choy@ccm.edu</email>
+        </faculty>
+		<faculty_placeholder_image>socecoanthro</faculty_placeholder_image>
+        <map>
+            <lat>40.857640</lat>
+            <lng>-74.580152</lng>
+            <msnippet>DH 300</msnippet>
+            <mtitle>Department Office</mtitle>
+            <floor>0</floor>
+        </map>
+		<program name="1130 - A.A. Teacher Education - Social Studies (Sociology)">
+			<department>Sociology, Economics and Anthropology</department>
+			<plink>http://www.ccm.edu/teacher-education/</plink>
+		</program>
+		<program name="1134 - A.A. in Liberal Arts and Sciences - Human Services Option">
+			<department>Sociology, Economics and Anthropology</department>
+			<plink>http://www.ccm.edu/academics/divdep/liberal-arts/department-of-sociology-economics-anthropology/human-services/</plink>
+		</program>
+	</department>
+</xml>

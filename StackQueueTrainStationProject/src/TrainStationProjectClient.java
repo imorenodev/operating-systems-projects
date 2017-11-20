@@ -31,7 +31,7 @@ public class TrainStationProjectClient {
 		createStations(stationList);
 		
 		// enter loop for time interval
-		while (time < TIME_INTERVAL) {
+		while (time <= TIME_INTERVAL) {
 			// start a new train
 			startNewTrain(time, trainQueue);
 			
@@ -200,1669 +200,1747 @@ public class TrainStationProjectClient {
 /**
  * Sample Output
  * 
-Station has been created with time to next station: 10 minutes.
-Station has been created with time to next station: 7 minutes.
-Station has been created with time to next station: 9 minutes.
+Station has been created with time to next station: 12 minutes.
+Station has been created with time to next station: 13 minutes.
 Station has been created with time to next station: 6 minutes.
-Station has been created with time to next station: 11 minutes.
+Station has been created with time to next station: 14 minutes.
+Station has been created with time to next station: 5 minutes.
 	Created train 1
 	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 3
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 4
 	Train 1 unloaded 0 passengers at station 0
-		loaded 1 passengers; Space left 49
+		loaded 2 passengers; Space left 48
 -----
 Current Time: 0.
-Number of passengers waiting: 3.
-Number of passengers on trains: 1.
+Number of passengers waiting: 1.
+Number of passengers on trains: 2.
 -----
 	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 4
+	Created passenger at station 3 heading to 4
 -----
 Current Time: 1.
-Number of passengers waiting: 5.
-Number of passengers on trains: 1.
+Number of passengers waiting: 3.
+Number of passengers on trains: 2.
 -----
-	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 3
 	Created passenger at station 1 heading to 4
-	Created passenger at station 3 heading to 4
 -----
 Current Time: 2.
-Number of passengers waiting: 8.
-Number of passengers on trains: 1.
+Number of passengers waiting: 7.
+Number of passengers on trains: 2.
 -----
 	Created passenger at station 1 heading to 4
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 2
+	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 3.
-Number of passengers waiting: 13.
-Number of passengers on trains: 1.
+Number of passengers waiting: 12.
+Number of passengers on trains: 2.
 -----
-	Created passenger at station 0 heading to 1
-	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 3
------
-Current Time: 4.
-Number of passengers waiting: 18.
-Number of passengers on trains: 1.
------
-	Created passenger at station 2 heading to 4
 	Created passenger at station 3 heading to 4
 -----
-Current Time: 5.
-Number of passengers waiting: 20.
-Number of passengers on trains: 1.
+Current Time: 4.
+Number of passengers waiting: 13.
+Number of passengers on trains: 2.
 -----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 3
+-----
+Current Time: 5.
+Number of passengers waiting: 16.
+Number of passengers on trains: 2.
+-----
+	Created passenger at station 0 heading to 4
 	Created passenger at station 2 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 1
 -----
 Current Time: 6.
-Number of passengers waiting: 21.
-Number of passengers on trains: 1.
+Number of passengers waiting: 20.
+Number of passengers on trains: 2.
 -----
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
 	Created passenger at station 0 heading to 4
-	Train 1 unloaded 0 passengers at station 1
-		loaded 5 passengers; Space left 44
 -----
 Current Time: 7.
-Number of passengers waiting: 19.
-Number of passengers on trains: 6.
+Number of passengers waiting: 24.
+Number of passengers on trains: 2.
 -----
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
 -----
 Current Time: 8.
-Number of passengers waiting: 23.
-Number of passengers on trains: 6.
+Number of passengers waiting: 24.
+Number of passengers on trains: 2.
 -----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 3 heading to 4
 	Created passenger at station 2 heading to 4
 -----
 Current Time: 9.
-Number of passengers waiting: 24.
-Number of passengers on trains: 6.
+Number of passengers waiting: 27.
+Number of passengers on trains: 2.
 -----
 	Created train 2
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 3
 	Train 2 unloaded 0 passengers at station 0
-		loaded 14 passengers; Space left 36
+		loaded 12 passengers; Space left 38
 -----
 Current Time: 10.
-Number of passengers waiting: 12.
-Number of passengers on trains: 20.
+Number of passengers waiting: 19.
+Number of passengers on trains: 14.
 -----
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 3
 -----
 Current Time: 11.
-Number of passengers waiting: 15.
-Number of passengers on trains: 20.
+Number of passengers waiting: 24.
+Number of passengers on trains: 14.
 -----
 	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 4
 	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 12.
-Number of passengers waiting: 20.
-Number of passengers on trains: 20.
+Number of passengers waiting: 29.
+Number of passengers on trains: 14.
 -----
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 3
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 2
+	Train 1 unloaded 0 passengers at station 1
+		loaded 11 passengers; Space left 37
 -----
 Current Time: 13.
-Number of passengers waiting: 22.
-Number of passengers on trains: 20.
+Number of passengers waiting: 20.
+Number of passengers on trains: 25.
 -----
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 3
-	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 1
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 3
+	Created passenger at station 3 heading to 4
 -----
 Current Time: 14.
-Number of passengers waiting: 27.
-Number of passengers on trains: 20.
+Number of passengers waiting: 24.
+Number of passengers on trains: 25.
 -----
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 15.
-Number of passengers waiting: 29.
-Number of passengers on trains: 20.
+Number of passengers waiting: 26.
+Number of passengers on trains: 25.
 -----
+	Created passenger at station 1 heading to 4
 	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 3
-	Train 1 unloaded 1 passengers at station 2
-		loaded 12 passengers; Space left 33
 -----
 Current Time: 16.
-Number of passengers waiting: 22.
-Number of passengers on trains: 31.
+Number of passengers waiting: 28.
+Number of passengers on trains: 25.
 -----
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 2
-	Train 2 unloaded 5 passengers at station 1
-		loaded 13 passengers; Space left 28
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 17.
-Number of passengers waiting: 12.
-Number of passengers on trains: 39.
+Number of passengers waiting: 29.
+Number of passengers on trains: 25.
 -----
-	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 4
 -----
 Current Time: 18.
-Number of passengers waiting: 15.
-Number of passengers on trains: 39.
+Number of passengers waiting: 29.
+Number of passengers on trains: 25.
 -----
-	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
+	Created passenger at station 3 heading to 4
+	Train 1 unloaded 3 passengers at station 2
+		loaded 10 passengers; Space left 30
 -----
 Current Time: 19.
 Number of passengers waiting: 20.
-Number of passengers on trains: 39.
+Number of passengers on trains: 32.
 -----
 	Created train 3
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
 	Train 3 unloaded 0 passengers at station 0
-		loaded 14 passengers; Space left 36
+		loaded 13 passengers; Space left 37
 -----
 Current Time: 20.
-Number of passengers waiting: 6.
-Number of passengers on trains: 53.
+Number of passengers waiting: 10.
+Number of passengers on trains: 45.
 -----
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 4
 	Created passenger at station 1 heading to 4
 -----
 Current Time: 21.
 Number of passengers waiting: 11.
-Number of passengers on trains: 53.
+Number of passengers on trains: 45.
 -----
-	Train 1 unloaded 6 passengers at station 3
-		loaded 4 passengers; Space left 35
+	Created passenger at station 1 heading to 4
 -----
 Current Time: 22.
-Number of passengers waiting: 7.
-Number of passengers on trains: 51.
+Number of passengers waiting: 12.
+Number of passengers on trains: 45.
 -----
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 2
 	Created passenger at station 1 heading to 2
+	Train 2 unloaded 2 passengers at station 1
+		loaded 5 passengers; Space left 35
 -----
 Current Time: 23.
-Number of passengers waiting: 10.
-Number of passengers on trains: 51.
+Number of passengers waiting: 9.
+Number of passengers on trains: 48.
 -----
 	Created passenger at station 0 heading to 3
-	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 4
 -----
 Current Time: 24.
-Number of passengers waiting: 12.
-Number of passengers on trains: 51.
+Number of passengers waiting: 13.
+Number of passengers on trains: 48.
 -----
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 4
 -----
 Current Time: 25.
 Number of passengers waiting: 14.
-Number of passengers on trains: 51.
+Number of passengers on trains: 48.
 -----
-	Train 2 unloaded 6 passengers at station 2
-		loaded 4 passengers; Space left 30
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 4
 -----
 Current Time: 26.
-Number of passengers waiting: 10.
-Number of passengers on trains: 49.
+Number of passengers waiting: 18.
+Number of passengers on trains: 48.
 -----
+	Created passenger at station 2 heading to 4
 	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 4
 	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 4
 	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 3
-	Train 3 unloaded 5 passengers at station 1
-		loaded 7 passengers; Space left 34
 -----
 Current Time: 27.
-Number of passengers waiting: 8.
-Number of passengers on trains: 51.
+Number of passengers waiting: 23.
+Number of passengers on trains: 48.
 -----
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 4
 	Created passenger at station 1 heading to 3
-	Created passenger at station 3 heading to 4
 -----
 Current Time: 28.
-Number of passengers waiting: 10.
-Number of passengers on trains: 51.
+Number of passengers waiting: 27.
+Number of passengers on trains: 48.
 -----
-	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 1
+	Train 2 unloaded 5 passengers at station 2
+		loaded 4 passengers; Space left 36
 -----
 Current Time: 29.
-Number of passengers waiting: 13.
-Number of passengers on trains: 51.
+Number of passengers waiting: 24.
+Number of passengers on trains: 47.
 -----
 	Created train 4
+	Created passenger at station 2 heading to 3
 	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 1
 	Train 4 unloaded 0 passengers at station 0
-		loaded 8 passengers; Space left 42
+		loaded 9 passengers; Space left 41
 -----
 Current Time: 30.
-Number of passengers waiting: 7.
-Number of passengers on trains: 59.
+Number of passengers waiting: 18.
+Number of passengers on trains: 56.
 -----
-	Created passenger at station 3 heading to 4
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 31.
+Number of passengers waiting: 21.
+Number of passengers on trains: 56.
+-----
+-----
+Current Time: 32.
+Number of passengers waiting: 21.
+Number of passengers on trains: 56.
+-----
+	Created passenger at station 0 heading to 1
+	Train 1 unloaded 12 passengers at station 3
+		loaded 8 passengers; Space left 34
+	Train 3 unloaded 3 passengers at station 1
+		loaded 10 passengers; Space left 30
+-----
+Current Time: 33.
+Number of passengers waiting: 4.
+Number of passengers on trains: 59.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
+-----
+Current Time: 34.
 Number of passengers waiting: 8.
 Number of passengers on trains: 59.
 -----
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
-	Train 2 unloaded 13 passengers at station 3
-		loaded 5 passengers; Space left 38
------
-Current Time: 32.
-Number of passengers waiting: 5.
-Number of passengers on trains: 51.
------
-	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 4
-	Created passenger at station 3 heading to 4
------
-Current Time: 33.
-Number of passengers waiting: 8.
-Number of passengers on trains: 51.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 4
------
-Current Time: 34.
-Number of passengers waiting: 13.
-Number of passengers on trains: 51.
------
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 3
 -----
 Current Time: 35.
-Number of passengers waiting: 16.
-Number of passengers on trains: 51.
+Number of passengers waiting: 8.
+Number of passengers on trains: 59.
 -----
-	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 3
 	Created passenger at station 2 heading to 4
-	Train 3 unloaded 7 passengers at station 2
-		loaded 6 passengers; Space left 35
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 36.
-Number of passengers waiting: 12.
-Number of passengers on trains: 50.
+Number of passengers waiting: 11.
+Number of passengers on trains: 59.
 -----
-	Created passenger at station 2 heading to 3
-	Created passenger at station 3 heading to 4
-	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 3
 	Created passenger at station 0 heading to 3
-	Train 4 unloaded 0 passengers at station 1
-		loaded 5 passengers; Space left 37
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 37.
-Number of passengers waiting: 11.
-Number of passengers on trains: 55.
------
-	Created passenger at station 3 heading to 4
------
-Current Time: 38.
-Number of passengers waiting: 12.
-Number of passengers on trains: 55.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 4
------
-Current Time: 39.
-Number of passengers waiting: 17.
-Number of passengers on trains: 55.
------
-	Created train 5
-	Created passenger at station 0 heading to 2
-	Train 5 unloaded 0 passengers at station 0
-		loaded 10 passengers; Space left 40
------
-Current Time: 40.
-Number of passengers waiting: 8.
-Number of passengers on trains: 65.
------
-	Created passenger at station 2 heading to 4
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 1
------
-Current Time: 41.
-Number of passengers waiting: 12.
-Number of passengers on trains: 65.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
-	Train 3 unloaded 8 passengers at station 3
-		loaded 6 passengers; Space left 37
------
-Current Time: 42.
-Number of passengers waiting: 9.
-Number of passengers on trains: 63.
------
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 1
------
-Current Time: 43.
-Number of passengers waiting: 13.
-Number of passengers on trains: 63.
------
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 3
------
-Current Time: 44.
-Number of passengers waiting: 18.
-Number of passengers on trains: 63.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 3
------
-Current Time: 45.
-Number of passengers waiting: 23.
-Number of passengers on trains: 63.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 3 heading to 4
-	Train 4 unloaded 5 passengers at station 2
-		loaded 5 passengers; Space left 37
------
-Current Time: 46.
-Number of passengers waiting: 22.
-Number of passengers on trains: 63.
------
-	Created passenger at station 1 heading to 4
-	Train 5 unloaded 0 passengers at station 1
-		loaded 12 passengers; Space left 28
------
-Current Time: 47.
-Number of passengers waiting: 11.
-Number of passengers on trains: 75.
------
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 1
------
-Current Time: 48.
-Number of passengers waiting: 14.
-Number of passengers on trains: 75.
------
-	Created passenger at station 1 heading to 2
------
-Current Time: 49.
 Number of passengers waiting: 15.
-Number of passengers on trains: 75.
------
-	Created train 6
-	Created passenger at station 3 heading to 4
-	Train 6 unloaded 0 passengers at station 0
-		loaded 11 passengers; Space left 39
------
-Current Time: 50.
-Number of passengers waiting: 5.
-Number of passengers on trains: 86.
+Number of passengers on trains: 59.
 -----
 	Created passenger at station 0 heading to 4
 	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 38.
+Number of passengers waiting: 18.
+Number of passengers on trains: 59.
+-----
+	Created passenger at station 1 heading to 4
+	Train 3 unloaded 8 passengers at station 2
+		loaded 6 passengers; Space left 32
+-----
+Current Time: 39.
+Number of passengers waiting: 13.
+Number of passengers on trains: 57.
+-----
+	Created train 5
+	Created passenger at station 0 heading to 1
+	Train 5 unloaded 0 passengers at station 0
+		loaded 8 passengers; Space left 42
+-----
+Current Time: 40.
+Number of passengers waiting: 6.
+Number of passengers on trains: 65.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 2
+-----
+Current Time: 41.
+Number of passengers waiting: 8.
+Number of passengers on trains: 65.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 1
+-----
+Current Time: 42.
+Number of passengers waiting: 10.
+Number of passengers on trains: 65.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 4
 	Created passenger at station 2 heading to 4
+	Created passenger at station 3 heading to 4
 	Created passenger at station 1 heading to 3
+	Train 2 unloaded 3 passengers at station 3
+		loaded 1 passengers; Space left 38
+	Train 4 unloaded 2 passengers at station 1
+		loaded 7 passengers; Space left 36
+-----
+Current Time: 43.
+Number of passengers waiting: 7.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 1
+-----
+Current Time: 44.
+Number of passengers waiting: 11.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 1
+	Created passenger at station 3 heading to 4
+	Created passenger at station 2 heading to 4
+-----
+Current Time: 45.
+Number of passengers waiting: 16.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 3
+-----
+Current Time: 46.
+Number of passengers waiting: 21.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 3 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
+-----
+Current Time: 47.
+Number of passengers waiting: 24.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 4
+-----
+Current Time: 48.
+Number of passengers waiting: 29.
+Number of passengers on trains: 68.
+-----
+	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 4
+	Train 4 unloaded 2 passengers at station 2
+		loaded 5 passengers; Space left 33
+-----
+Current Time: 49.
+Number of passengers waiting: 29.
+Number of passengers on trains: 71.
+-----
+	Created train 6
+	Created passenger at station 2 heading to 4
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Train 6 unloaded 0 passengers at station 0
+		loaded 17 passengers; Space left 33
+-----
+Current Time: 50.
+Number of passengers waiting: 15.
+Number of passengers on trains: 88.
+-----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 1
 	Created passenger at station 0 heading to 3
 -----
 Current Time: 51.
-Number of passengers waiting: 10.
-Number of passengers on trains: 86.
+Number of passengers waiting: 18.
+Number of passengers on trains: 88.
 -----
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 1
-	Train 4 unloaded 10 passengers at station 3
-		loaded 2 passengers; Space left 45
------
-Current Time: 52.
-Number of passengers waiting: 13.
-Number of passengers on trains: 78.
------
-	Created passenger at station 3 heading to 4
-	Created passenger at station 2 heading to 3
-	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 3
 	Created passenger at station 1 heading to 2
 -----
-Current Time: 53.
-Number of passengers waiting: 17.
-Number of passengers on trains: 78.
+Current Time: 52.
+Number of passengers waiting: 20.
+Number of passengers on trains: 88.
 -----
-	Created passenger at station 2 heading to 4
+	Train 3 unloaded 10 passengers at station 3
+		loaded 5 passengers; Space left 37
+	Train 5 unloaded 2 passengers at station 1
+		loaded 10 passengers; Space left 34
+-----
+Current Time: 53.
+Number of passengers waiting: 5.
+Number of passengers on trains: 91.
+-----
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 54.
-Number of passengers waiting: 18.
-Number of passengers on trains: 78.
+Number of passengers waiting: 7.
+Number of passengers on trains: 91.
 -----
-	Created passenger at station 3 heading to 4
 -----
 Current Time: 55.
-Number of passengers waiting: 19.
-Number of passengers on trains: 78.
+Number of passengers waiting: 7.
+Number of passengers on trains: 91.
 -----
-	Train 5 unloaded 12 passengers at station 2
-		loaded 8 passengers; Space left 32
 -----
 Current Time: 56.
-Number of passengers waiting: 11.
-Number of passengers on trains: 74.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 4
-	Train 6 unloaded 3 passengers at station 1
-		loaded 6 passengers; Space left 36
------
-Current Time: 57.
 Number of passengers waiting: 7.
-Number of passengers on trains: 77.
+Number of passengers on trains: 91.
 -----
 	Created passenger at station 0 heading to 2
-	Created passenger at station 3 heading to 4
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 4
------
-Current Time: 58.
-Number of passengers waiting: 11.
-Number of passengers on trains: 77.
------
-	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 1
 	Created passenger at station 0 heading to 1
 -----
-Current Time: 59.
+Current Time: 57.
+Number of passengers waiting: 11.
+Number of passengers on trains: 91.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+-----
+Current Time: 58.
 Number of passengers waiting: 16.
-Number of passengers on trains: 77.
+Number of passengers on trains: 91.
+-----
+	Created passenger at station 2 heading to 4
+	Train 5 unloaded 8 passengers at station 2
+		loaded 4 passengers; Space left 38
+-----
+Current Time: 59.
+Number of passengers waiting: 13.
+Number of passengers on trains: 87.
 -----
 	Created train 7
 	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 1
-	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
 	Train 7 unloaded 0 passengers at station 0
 		loaded 10 passengers; Space left 40
 -----
 Current Time: 60.
-Number of passengers waiting: 11.
-Number of passengers on trains: 87.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
------
-Current Time: 61.
-Number of passengers waiting: 14.
-Number of passengers on trains: 87.
------
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 3
-	Created passenger at station 2 heading to 3
-	Train 5 unloaded 7 passengers at station 3
-		loaded 5 passengers; Space left 34
------
-Current Time: 62.
-Number of passengers waiting: 13.
-Number of passengers on trains: 85.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 3 heading to 4
-	Created passenger at station 2 heading to 4
------
-Current Time: 63.
-Number of passengers waiting: 16.
-Number of passengers on trains: 85.
------
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 4
------
-Current Time: 64.
-Number of passengers waiting: 19.
-Number of passengers on trains: 85.
------
-	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 2
------
-Current Time: 65.
-Number of passengers waiting: 24.
-Number of passengers on trains: 85.
------
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 4
-	Created passenger at station 3 heading to 4
-	Train 6 unloaded 7 passengers at station 2
-		loaded 9 passengers; Space left 34
------
-Current Time: 66.
-Number of passengers waiting: 19.
-Number of passengers on trains: 87.
------
-	Created passenger at station 0 heading to 3
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 2
-	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 2
-	Train 7 unloaded 3 passengers at station 1
-		loaded 10 passengers; Space left 33
------
-Current Time: 67.
-Number of passengers waiting: 14.
-Number of passengers on trains: 94.
------
-	Created passenger at station 1 heading to 4
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 4
------
-Current Time: 68.
-Number of passengers waiting: 18.
-Number of passengers on trains: 94.
------
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 1
------
-Current Time: 69.
-Number of passengers waiting: 22.
-Number of passengers on trains: 94.
------
-	Created train 8
-	Train 8 unloaded 0 passengers at station 0
-		loaded 12 passengers; Space left 38
------
-Current Time: 70.
-Number of passengers waiting: 10.
-Number of passengers on trains: 106.
------
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 3
------
-Current Time: 71.
-Number of passengers waiting: 14.
-Number of passengers on trains: 106.
------
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 1
-	Train 6 unloaded 11 passengers at station 3
-		loaded 4 passengers; Space left 41
------
-Current Time: 72.
-Number of passengers waiting: 15.
-Number of passengers on trains: 99.
------
-	Created passenger at station 2 heading to 3
------
-Current Time: 73.
-Number of passengers waiting: 16.
-Number of passengers on trains: 99.
------
-	Created passenger at station 1 heading to 3
------
-Current Time: 74.
-Number of passengers waiting: 17.
-Number of passengers on trains: 99.
------
------
-Current Time: 75.
-Number of passengers waiting: 17.
-Number of passengers on trains: 99.
------
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 4
-	Created passenger at station 1 heading to 3
-	Train 7 unloaded 6 passengers at station 2
-		loaded 4 passengers; Space left 35
------
-Current Time: 76.
-Number of passengers waiting: 18.
+Number of passengers waiting: 4.
 Number of passengers on trains: 97.
 -----
-	Train 8 unloaded 3 passengers at station 1
-		loaded 11 passengers; Space left 30
+-----
+Current Time: 61.
+Number of passengers waiting: 4.
+Number of passengers on trains: 97.
+-----
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 3
+-----
+Current Time: 62.
+Number of passengers waiting: 6.
+Number of passengers on trains: 97.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 1
+	Train 4 unloaded 9 passengers at station 3
+		loaded 0 passengers; Space left 42
+	Train 6 unloaded 6 passengers at station 1
+		loaded 7 passengers; Space left 32
+-----
+Current Time: 63.
+Number of passengers waiting: 3.
+Number of passengers on trains: 89.
+-----
+-----
+Current Time: 64.
+Number of passengers waiting: 3.
+Number of passengers on trains: 89.
+-----
+	Created passenger at station 0 heading to 1
+-----
+Current Time: 65.
+Number of passengers waiting: 4.
+Number of passengers on trains: 89.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 3
+-----
+Current Time: 66.
+Number of passengers waiting: 8.
+Number of passengers on trains: 89.
+-----
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 3 heading to 4
+-----
+Current Time: 67.
+Number of passengers waiting: 11.
+Number of passengers on trains: 89.
+-----
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 1
+-----
+Current Time: 68.
+Number of passengers waiting: 16.
+Number of passengers on trains: 89.
+-----
+	Created passenger at station 0 heading to 1
+	Train 6 unloaded 2 passengers at station 2
+		loaded 3 passengers; Space left 31
+-----
+Current Time: 69.
+Number of passengers waiting: 14.
+Number of passengers on trains: 90.
+-----
+	Created train 8
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 4
+	Train 8 unloaded 0 passengers at station 0
+		loaded 10 passengers; Space left 40
+-----
+Current Time: 70.
+Number of passengers waiting: 6.
+Number of passengers on trains: 100.
+-----
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 3
+-----
+Current Time: 71.
+Number of passengers waiting: 8.
+Number of passengers on trains: 100.
+-----
+-----
+Current Time: 72.
+Number of passengers waiting: 8.
+Number of passengers on trains: 100.
+-----
+	Created passenger at station 2 heading to 4
+	Train 5 unloaded 3 passengers at station 3
+		loaded 1 passengers; Space left 40
+	Train 7 unloaded 3 passengers at station 1
+		loaded 6 passengers; Space left 37
+-----
+Current Time: 73.
+Number of passengers waiting: 2.
+Number of passengers on trains: 101.
+-----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 3
+	Created passenger at station 2 heading to 4
+-----
+Current Time: 74.
+Number of passengers waiting: 6.
+Number of passengers on trains: 101.
+-----
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 2
+-----
+Current Time: 75.
+Number of passengers waiting: 9.
+Number of passengers on trains: 101.
+-----
+-----
+Current Time: 76.
+Number of passengers waiting: 9.
+Number of passengers on trains: 101.
+-----
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 77.
-Number of passengers waiting: 7.
-Number of passengers on trains: 105.
+Number of passengers waiting: 10.
+Number of passengers on trains: 101.
 -----
+	Created passenger at station 1 heading to 3
 	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 78.
-Number of passengers waiting: 11.
-Number of passengers on trains: 105.
+Number of passengers waiting: 13.
+Number of passengers on trains: 101.
 -----
-	Created passenger at station 2 heading to 3
 	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 4
+	Train 7 unloaded 3 passengers at station 2
+		loaded 4 passengers; Space left 36
 -----
 Current Time: 79.
-Number of passengers waiting: 13.
-Number of passengers on trains: 105.
+Number of passengers waiting: 14.
+Number of passengers on trains: 102.
 -----
 	Created train 9
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 4
-	Train 9 unloaded 0 passengers at station 0
-		loaded 11 passengers; Space left 39
------
-Current Time: 80.
-Number of passengers waiting: 4.
-Number of passengers on trains: 116.
------
------
-Current Time: 81.
-Number of passengers waiting: 4.
-Number of passengers on trains: 116.
------
 	Created passenger at station 1 heading to 3
 	Created passenger at station 0 heading to 2
-	Train 7 unloaded 7 passengers at station 3
-		loaded 0 passengers; Space left 42
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 2
+	Train 9 unloaded 0 passengers at station 0
+		loaded 10 passengers; Space left 40
 -----
-Current Time: 82.
-Number of passengers waiting: 6.
-Number of passengers on trains: 109.
+Current Time: 80.
+Number of passengers waiting: 9.
+Number of passengers on trains: 112.
 -----
 	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 3
 	Created passenger at station 2 heading to 4
+-----
+Current Time: 81.
+Number of passengers waiting: 12.
+Number of passengers on trains: 112.
+-----
 	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 2
+-----
+Current Time: 82.
+Number of passengers waiting: 17.
+Number of passengers on trains: 112.
+-----
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 3
+	Train 6 unloaded 6 passengers at station 3
+		loaded 0 passengers; Space left 37
+	Train 8 unloaded 5 passengers at station 1
+		loaded 11 passengers; Space left 34
 -----
 Current Time: 83.
-Number of passengers waiting: 9.
-Number of passengers on trains: 109.
+Number of passengers waiting: 8.
+Number of passengers on trains: 112.
 -----
-	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 84.
 Number of passengers waiting: 10.
-Number of passengers on trains: 109.
+Number of passengers on trains: 112.
 -----
-	Created passenger at station 2 heading to 4
 	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 4
 	Created passenger at station 2 heading to 3
+	Created passenger at station 2 heading to 4
 -----
 Current Time: 85.
-Number of passengers waiting: 13.
-Number of passengers on trains: 109.
+Number of passengers waiting: 15.
+Number of passengers on trains: 112.
 -----
-	Created passenger at station 0 heading to 4
-	Train 8 unloaded 5 passengers at station 2
-		loaded 5 passengers; Space left 30
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 86.
-Number of passengers waiting: 9.
-Number of passengers on trains: 109.
+Number of passengers waiting: 17.
+Number of passengers on trains: 112.
 -----
-	Created passenger at station 2 heading to 3
-	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 3
 	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
-	Train 9 unloaded 2 passengers at station 1
-		loaded 6 passengers; Space left 35
------
-Current Time: 87.
-Number of passengers waiting: 8.
-Number of passengers on trains: 113.
------
------
-Current Time: 88.
-Number of passengers waiting: 8.
-Number of passengers on trains: 113.
------
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 2
------
-Current Time: 89.
-Number of passengers waiting: 10.
-Number of passengers on trains: 113.
------
-	Created train 10
-	Train 10 unloaded 0 passengers at station 0
-		loaded 6 passengers; Space left 44
------
-Current Time: 90.
-Number of passengers waiting: 4.
-Number of passengers on trains: 119.
------
+	Created passenger at station 3 heading to 4
 	Created passenger at station 2 heading to 4
 -----
-Current Time: 91.
-Number of passengers waiting: 5.
-Number of passengers on trains: 119.
+Current Time: 87.
+Number of passengers waiting: 21.
+Number of passengers on trains: 112.
 -----
-	Created passenger at station 0 heading to 4
 	Created passenger at station 0 heading to 3
-	Train 8 unloaded 11 passengers at station 3
-		loaded 1 passengers; Space left 40
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 88.
+Number of passengers waiting: 25.
+Number of passengers on trains: 112.
+-----
+	Train 8 unloaded 6 passengers at station 2
+		loaded 8 passengers; Space left 32
+-----
+Current Time: 89.
+Number of passengers waiting: 17.
+Number of passengers on trains: 114.
+-----
+	Created train 10
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 3 heading to 4
+	Train 10 unloaded 0 passengers at station 0
+		loaded 10 passengers; Space left 40
+-----
+Current Time: 90.
+Number of passengers waiting: 12.
+Number of passengers on trains: 124.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 2
+-----
+Current Time: 91.
+Number of passengers waiting: 17.
+Number of passengers on trains: 124.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 92.
-Number of passengers waiting: 6.
-Number of passengers on trains: 109.
+Number of passengers waiting: 19.
+Number of passengers on trains: 124.
 -----
 	Created passenger at station 1 heading to 2
 	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 3
+	Train 7 unloaded 7 passengers at station 3
+		loaded 5 passengers; Space left 38
+	Train 9 unloaded 0 passengers at station 1
+		loaded 13 passengers; Space left 27
 -----
 Current Time: 93.
-Number of passengers waiting: 10.
-Number of passengers on trains: 109.
------
-	Created passenger at station 0 heading to 3
------
-Current Time: 94.
-Number of passengers waiting: 11.
-Number of passengers on trains: 109.
------
------
-Current Time: 95.
-Number of passengers waiting: 11.
-Number of passengers on trains: 109.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 2
-	Train 9 unloaded 4 passengers at station 2
-		loaded 6 passengers; Space left 33
------
-Current Time: 96.
-Number of passengers waiting: 8.
-Number of passengers on trains: 111.
------
-	Train 10 unloaded 0 passengers at station 1
-		loaded 2 passengers; Space left 42
------
-Current Time: 97.
 Number of passengers waiting: 6.
-Number of passengers on trains: 113.
+Number of passengers on trains: 135.
 -----
 	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 2
 	Created passenger at station 2 heading to 3
+-----
+Current Time: 94.
+Number of passengers waiting: 10.
+Number of passengers on trains: 135.
+-----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 3
+-----
+Current Time: 95.
+Number of passengers waiting: 13.
+Number of passengers on trains: 135.
+-----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 4
+-----
+Current Time: 96.
+Number of passengers waiting: 16.
+Number of passengers on trains: 135.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 2 heading to 4
+	Created passenger at station 2 heading to 3
+-----
+Current Time: 97.
+Number of passengers waiting: 20.
+Number of passengers on trains: 135.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 1
 	Created passenger at station 0 heading to 2
 -----
 Current Time: 98.
-Number of passengers waiting: 9.
-Number of passengers on trains: 113.
+Number of passengers waiting: 25.
+Number of passengers on trains: 135.
 -----
-	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 2
+	Train 9 unloaded 12 passengers at station 2
+		loaded 6 passengers; Space left 33
 -----
 Current Time: 99.
-Number of passengers waiting: 10.
-Number of passengers on trains: 113.
+Number of passengers waiting: 21.
+Number of passengers on trains: 129.
 -----
 	Created train 11
-	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 3
 	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 4
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 1
 	Train 11 unloaded 0 passengers at station 0
-		loaded 8 passengers; Space left 42
+		loaded 18 passengers; Space left 32
 -----
 Current Time: 100.
-Number of passengers waiting: 5.
-Number of passengers on trains: 121.
+Number of passengers waiting: 8.
+Number of passengers on trains: 147.
 -----
-	Created passenger at station 0 heading to 4
 	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 101.
-Number of passengers waiting: 7.
-Number of passengers on trains: 121.
+Number of passengers waiting: 13.
+Number of passengers on trains: 147.
 -----
-	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 4
-	Train 9 unloaded 11 passengers at station 3
-		loaded 1 passengers; Space left 43
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 102.
-Number of passengers waiting: 8.
-Number of passengers on trains: 111.
+Number of passengers waiting: 16.
+Number of passengers on trains: 147.
 -----
+	Train 8 unloaded 7 passengers at station 3
+		loaded 4 passengers; Space left 35
+	Train 10 unloaded 1 passengers at station 1
+		loaded 7 passengers; Space left 34
 -----
 Current Time: 103.
-Number of passengers waiting: 8.
-Number of passengers on trains: 111.
+Number of passengers waiting: 5.
+Number of passengers on trains: 150.
 -----
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 104.
-Number of passengers waiting: 8.
-Number of passengers on trains: 111.
+Number of passengers waiting: 6.
+Number of passengers on trains: 150.
 -----
-	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 2
 	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 105.
-Number of passengers waiting: 13.
-Number of passengers on trains: 111.
+Number of passengers waiting: 9.
+Number of passengers on trains: 150.
 -----
-	Created passenger at station 0 heading to 4
-	Train 10 unloaded 4 passengers at station 2
-		loaded 3 passengers; Space left 43
 -----
 Current Time: 106.
-Number of passengers waiting: 11.
-Number of passengers on trains: 110.
+Number of passengers waiting: 9.
+Number of passengers on trains: 150.
 -----
-	Train 11 unloaded 0 passengers at station 1
-		loaded 6 passengers; Space left 36
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 107.
-Number of passengers waiting: 5.
-Number of passengers on trains: 116.
+Number of passengers waiting: 12.
+Number of passengers on trains: 150.
 -----
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
+	Created passenger at station 3 heading to 4
 	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 3 heading to 4
+	Created passenger at station 2 heading to 4
 -----
 Current Time: 108.
-Number of passengers waiting: 9.
-Number of passengers on trains: 116.
+Number of passengers waiting: 17.
+Number of passengers on trains: 150.
 -----
------
-Current Time: 109.
-Number of passengers waiting: 9.
-Number of passengers on trains: 116.
------
-	Created train 12
+	Created passenger at station 2 heading to 3
 	Created passenger at station 0 heading to 3
 	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 2
+	Train 10 unloaded 7 passengers at station 2
+		loaded 5 passengers; Space left 36
+-----
+Current Time: 109.
+Number of passengers waiting: 15.
+Number of passengers on trains: 148.
+-----
+	Created train 12
 	Train 12 unloaded 0 passengers at station 0
-		loaded 11 passengers; Space left 39
+		loaded 7 passengers; Space left 43
 -----
 Current Time: 110.
-Number of passengers waiting: 3.
-Number of passengers on trains: 127.
+Number of passengers waiting: 8.
+Number of passengers on trains: 155.
 -----
-	Created passenger at station 1 heading to 3
 	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 4
 	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 111.
-Number of passengers waiting: 6.
-Number of passengers on trains: 127.
+Number of passengers waiting: 13.
+Number of passengers on trains: 155.
 -----
-	Created passenger at station 0 heading to 1
-	Train 10 unloaded 4 passengers at station 3
-		loaded 1 passengers; Space left 46
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 112.
-Number of passengers waiting: 6.
-Number of passengers on trains: 124.
------
-	Created passenger at station 0 heading to 1
------
-Current Time: 113.
-Number of passengers waiting: 7.
-Number of passengers on trains: 124.
+Number of passengers waiting: 15.
+Number of passengers on trains: 155.
 -----
 	Created passenger at station 2 heading to 4
 	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
+	Train 9 unloaded 11 passengers at station 3
+		loaded 4 passengers; Space left 40
+	Train 11 unloaded 5 passengers at station 1
+		loaded 9 passengers; Space left 28
+-----
+Current Time: 113.
+Number of passengers waiting: 6.
+Number of passengers on trains: 152.
+-----
 	Created passenger at station 2 heading to 3
 -----
 Current Time: 114.
-Number of passengers waiting: 11.
-Number of passengers on trains: 124.
+Number of passengers waiting: 7.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 4
 -----
 Current Time: 115.
-Number of passengers waiting: 12.
-Number of passengers on trains: 124.
+Number of passengers waiting: 8.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 1 heading to 3
-	Train 11 unloaded 7 passengers at station 2
-		loaded 3 passengers; Space left 40
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 116.
-Number of passengers waiting: 10.
-Number of passengers on trains: 120.
+Number of passengers waiting: 11.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 3 heading to 4
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 4
-	Train 12 unloaded 1 passengers at station 1
-		loaded 7 passengers; Space left 33
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 4
 -----
 Current Time: 117.
-Number of passengers waiting: 8.
-Number of passengers on trains: 126.
+Number of passengers waiting: 13.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 2 heading to 4
-	Created passenger at station 1 heading to 3
 -----
 Current Time: 118.
-Number of passengers waiting: 10.
-Number of passengers on trains: 126.
+Number of passengers waiting: 13.
+Number of passengers on trains: 152.
 -----
+	Created passenger at station 1 heading to 4
+	Train 11 unloaded 8 passengers at station 2
+		loaded 3 passengers; Space left 33
 -----
 Current Time: 119.
-Number of passengers waiting: 10.
-Number of passengers on trains: 126.
+Number of passengers waiting: 11.
+Number of passengers on trains: 147.
 -----
 	Created train 13
-	Created passenger at station 0 heading to 3
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 1
 	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 4
 	Train 13 unloaded 0 passengers at station 0
-		loaded 7 passengers; Space left 43
+		loaded 9 passengers; Space left 41
 -----
 Current Time: 120.
-Number of passengers waiting: 6.
-Number of passengers on trains: 133.
+Number of passengers waiting: 7.
+Number of passengers on trains: 156.
 -----
-	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 2
 	Created passenger at station 1 heading to 3
 -----
 Current Time: 121.
-Number of passengers waiting: 8.
-Number of passengers on trains: 133.
+Number of passengers waiting: 10.
+Number of passengers on trains: 156.
 -----
-	Created passenger at station 0 heading to 1
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 4
-	Train 11 unloaded 6 passengers at station 3
-		loaded 2 passengers; Space left 44
 -----
 Current Time: 122.
-Number of passengers waiting: 9.
-Number of passengers on trains: 129.
+Number of passengers waiting: 10.
+Number of passengers on trains: 156.
 -----
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 1
-	Created passenger at station 3 heading to 4
+	Train 10 unloaded 6 passengers at station 3
+		loaded 0 passengers; Space left 42
+	Train 12 unloaded 1 passengers at station 1
+		loaded 9 passengers; Space left 35
 -----
 Current Time: 123.
-Number of passengers waiting: 12.
-Number of passengers on trains: 129.
+Number of passengers waiting: 1.
+Number of passengers on trains: 158.
 -----
+-----
+Current Time: 124.
+Number of passengers waiting: 1.
+Number of passengers on trains: 158.
+-----
+-----
+Current Time: 125.
+Number of passengers waiting: 1.
+Number of passengers on trains: 158.
+-----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 2
 	Created passenger at station 1 heading to 2
 	Created passenger at station 0 heading to 4
 -----
-Current Time: 124.
-Number of passengers waiting: 14.
-Number of passengers on trains: 129.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 2 heading to 3
------
-Current Time: 125.
-Number of passengers waiting: 16.
-Number of passengers on trains: 129.
------
-	Created passenger at station 3 heading to 4
-	Train 12 unloaded 4 passengers at station 2
-		loaded 7 passengers; Space left 30
------
 Current Time: 126.
-Number of passengers waiting: 10.
-Number of passengers on trains: 132.
+Number of passengers waiting: 5.
+Number of passengers on trains: 158.
 -----
 	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 4
-	Train 13 unloaded 2 passengers at station 1
-		loaded 4 passengers; Space left 41
+	Created passenger at station 0 heading to 2
+	Created passenger at station 3 heading to 4
 -----
 Current Time: 127.
 Number of passengers waiting: 8.
-Number of passengers on trains: 134.
+Number of passengers on trains: 158.
 -----
 	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
 -----
 Current Time: 128.
-Number of passengers waiting: 10.
-Number of passengers on trains: 134.
+Number of passengers waiting: 12.
+Number of passengers on trains: 158.
 -----
-	Created passenger at station 0 heading to 3
-	Created passenger at station 0 heading to 1
-	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Train 12 unloaded 9 passengers at station 2
+		loaded 1 passengers; Space left 43
 -----
 Current Time: 129.
-Number of passengers waiting: 13.
-Number of passengers on trains: 134.
+Number of passengers waiting: 12.
+Number of passengers on trains: 150.
 -----
 	Created train 14
+	Created passenger at station 2 heading to 3
+	Created passenger at station 3 heading to 4
 	Train 14 unloaded 0 passengers at station 0
-		loaded 10 passengers; Space left 40
+		loaded 5 passengers; Space left 45
 -----
 Current Time: 130.
-Number of passengers waiting: 3.
-Number of passengers on trains: 144.
+Number of passengers waiting: 9.
+Number of passengers on trains: 155.
 -----
-	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 4
 -----
 Current Time: 131.
-Number of passengers waiting: 8.
-Number of passengers on trains: 144.
+Number of passengers waiting: 9.
+Number of passengers on trains: 155.
 -----
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 1
-	Created passenger at station 1 heading to 4
-	Train 12 unloaded 10 passengers at station 3
-		loaded 2 passengers; Space left 38
 -----
 Current Time: 132.
-Number of passengers waiting: 11.
-Number of passengers on trains: 136.
+Number of passengers waiting: 9.
+Number of passengers on trains: 155.
 -----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 3
+	Created passenger at station 3 heading to 4
+	Train 11 unloaded 10 passengers at station 3
+		loaded 5 passengers; Space left 38
+	Train 13 unloaded 3 passengers at station 1
+		loaded 5 passengers; Space left 39
 -----
 Current Time: 133.
-Number of passengers waiting: 11.
-Number of passengers on trains: 136.
------
------
-Current Time: 134.
-Number of passengers waiting: 11.
-Number of passengers on trains: 136.
------
------
-Current Time: 135.
-Number of passengers waiting: 11.
-Number of passengers on trains: 136.
------
-	Train 13 unloaded 2 passengers at station 2
-		loaded 2 passengers; Space left 41
------
-Current Time: 136.
-Number of passengers waiting: 9.
-Number of passengers on trains: 136.
------
-	Train 14 unloaded 3 passengers at station 1
-		loaded 6 passengers; Space left 37
------
-Current Time: 137.
 Number of passengers waiting: 3.
-Number of passengers on trains: 139.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 4
 	Created passenger at station 2 heading to 3
 -----
-Current Time: 138.
-Number of passengers waiting: 5.
-Number of passengers on trains: 139.
+Current Time: 134.
+Number of passengers waiting: 7.
+Number of passengers on trains: 152.
 -----
-	Created passenger at station 1 heading to 3
+	Created passenger at station 3 heading to 4
+-----
+Current Time: 135.
+Number of passengers waiting: 8.
+Number of passengers on trains: 152.
+-----
+-----
+Current Time: 136.
+Number of passengers waiting: 8.
+Number of passengers on trains: 152.
+-----
+	Created passenger at station 0 heading to 4
+-----
+Current Time: 137.
+Number of passengers waiting: 9.
+Number of passengers on trains: 152.
+-----
+	Created passenger at station 1 heading to 2
+-----
+Current Time: 138.
+Number of passengers waiting: 10.
+Number of passengers on trains: 152.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 1
+	Train 13 unloaded 5 passengers at station 2
+		loaded 6 passengers; Space left 38
 -----
 Current Time: 139.
-Number of passengers waiting: 6.
-Number of passengers on trains: 139.
+Number of passengers waiting: 9.
+Number of passengers on trains: 153.
 -----
 	Created train 15
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 2
 	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 2
 	Train 15 unloaded 0 passengers at station 0
-		loaded 3 passengers; Space left 47
+		loaded 6 passengers; Space left 44
 -----
 Current Time: 140.
 Number of passengers waiting: 6.
-Number of passengers on trains: 142.
+Number of passengers on trains: 159.
 -----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 141.
-Number of passengers waiting: 6.
-Number of passengers on trains: 142.
+Number of passengers waiting: 10.
+Number of passengers on trains: 159.
 -----
-	Created passenger at station 0 heading to 2
 	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 4
 	Created passenger at station 1 heading to 3
-	Train 13 unloaded 6 passengers at station 3
-		loaded 2 passengers; Space left 45
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 142.
-Number of passengers waiting: 8.
-Number of passengers on trains: 138.
+Number of passengers waiting: 13.
+Number of passengers on trains: 159.
 -----
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 4
+	Train 12 unloaded 4 passengers at station 3
+		loaded 3 passengers; Space left 44
+	Train 14 unloaded 0 passengers at station 1
+		loaded 6 passengers; Space left 39
 -----
 Current Time: 143.
-Number of passengers waiting: 10.
-Number of passengers on trains: 138.
+Number of passengers waiting: 4.
+Number of passengers on trains: 164.
 -----
-	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 144.
-Number of passengers waiting: 11.
-Number of passengers on trains: 138.
+Number of passengers waiting: 5.
+Number of passengers on trains: 164.
 -----
-	Created passenger at station 0 heading to 3
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 1
 -----
 Current Time: 145.
-Number of passengers waiting: 12.
-Number of passengers on trains: 138.
+Number of passengers waiting: 9.
+Number of passengers on trains: 164.
 -----
-	Train 14 unloaded 3 passengers at station 2
-		loaded 3 passengers; Space left 37
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 146.
-Number of passengers waiting: 9.
-Number of passengers on trains: 138.
+Number of passengers waiting: 13.
+Number of passengers on trains: 164.
 -----
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 1
-	Train 15 unloaded 2 passengers at station 1
-		loaded 6 passengers; Space left 43
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 147.
-Number of passengers waiting: 5.
-Number of passengers on trains: 142.
+Number of passengers waiting: 16.
+Number of passengers on trains: 164.
 -----
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 148.
-Number of passengers waiting: 5.
-Number of passengers on trains: 142.
+Number of passengers waiting: 20.
+Number of passengers on trains: 164.
 -----
-	Created passenger at station 0 heading to 2
-	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 1
 	Created passenger at station 1 heading to 3
-	Created passenger at station 2 heading to 4
+	Train 14 unloaded 5 passengers at station 2
+		loaded 4 passengers; Space left 40
 -----
 Current Time: 149.
-Number of passengers waiting: 9.
-Number of passengers on trains: 142.
+Number of passengers waiting: 18.
+Number of passengers on trains: 163.
 -----
 	Created train 16
+	Created passenger at station 0 heading to 3
+	Created passenger at station 3 heading to 4
 	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 4
 	Created passenger at station 2 heading to 3
 	Train 16 unloaded 0 passengers at station 0
-		loaded 7 passengers; Space left 43
+		loaded 11 passengers; Space left 39
 -----
 Current Time: 150.
-Number of passengers waiting: 4.
-Number of passengers on trains: 149.
+Number of passengers waiting: 12.
+Number of passengers on trains: 174.
 -----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 151.
-Number of passengers waiting: 4.
-Number of passengers on trains: 149.
+Number of passengers waiting: 16.
+Number of passengers on trains: 174.
 -----
 	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 3
 	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 3
-	Train 14 unloaded 4 passengers at station 3
-		loaded 0 passengers; Space left 41
+	Created passenger at station 0 heading to 1
 -----
 Current Time: 152.
-Number of passengers waiting: 8.
-Number of passengers on trains: 145.
+Number of passengers waiting: 21.
+Number of passengers on trains: 174.
 -----
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 2
-	Created passenger at station 1 heading to 4
-	Created passenger at station 1 heading to 4
------
-Current Time: 153.
-Number of passengers waiting: 12.
-Number of passengers on trains: 145.
------
-	Created passenger at station 1 heading to 4
 	Created passenger at station 0 heading to 1
 	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 4
+	Train 13 unloaded 7 passengers at station 3
+		loaded 3 passengers; Space left 42
+	Train 15 unloaded 2 passengers at station 1
+		loaded 12 passengers; Space left 34
+-----
+Current Time: 153.
+Number of passengers waiting: 10.
+Number of passengers on trains: 180.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 2 heading to 4
+-----
+Current Time: 154.
+Number of passengers waiting: 13.
+Number of passengers on trains: 180.
+-----
+	Created passenger at station 3 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 155.
+Number of passengers waiting: 17.
+Number of passengers on trains: 180.
+-----
+	Created passenger at station 2 heading to 3
 	Created passenger at station 2 heading to 4
 	Created passenger at station 2 heading to 3
 -----
-Current Time: 154.
-Number of passengers waiting: 17.
-Number of passengers on trains: 145.
------
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 3
------
-Current Time: 155.
-Number of passengers waiting: 22.
-Number of passengers on trains: 145.
------
-	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 4
-	Train 15 unloaded 1 passengers at station 2
-		loaded 9 passengers; Space left 35
------
 Current Time: 156.
-Number of passengers waiting: 16.
-Number of passengers on trains: 153.
+Number of passengers waiting: 20.
+Number of passengers on trains: 180.
 -----
-	Created passenger at station 0 heading to 4
-	Train 16 unloaded 1 passengers at station 1
-		loaded 9 passengers; Space left 35
 -----
 Current Time: 157.
-Number of passengers waiting: 8.
-Number of passengers on trains: 161.
+Number of passengers waiting: 20.
+Number of passengers on trains: 180.
 -----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 1
 	Created passenger at station 1 heading to 3
 -----
 Current Time: 158.
-Number of passengers waiting: 9.
-Number of passengers on trains: 161.
+Number of passengers waiting: 24.
+Number of passengers on trains: 180.
 -----
-	Created passenger at station 3 heading to 4
-	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+	Train 15 unloaded 7 passengers at station 2
+		loaded 8 passengers; Space left 33
 -----
 Current Time: 159.
-Number of passengers waiting: 11.
-Number of passengers on trains: 161.
+Number of passengers waiting: 20.
+Number of passengers on trains: 181.
 -----
 	Created train 17
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 2
 	Train 17 unloaded 0 passengers at station 0
-		loaded 9 passengers; Space left 41
+		loaded 15 passengers; Space left 35
 -----
 Current Time: 160.
-Number of passengers waiting: 5.
-Number of passengers on trains: 170.
+Number of passengers waiting: 6.
+Number of passengers on trains: 196.
 -----
 	Created passenger at station 0 heading to 4
------
-Current Time: 161.
-Number of passengers waiting: 6.
-Number of passengers on trains: 170.
------
 	Created passenger at station 0 heading to 2
-	Train 15 unloaded 5 passengers at station 3
-		loaded 1 passengers; Space left 39
------
-Current Time: 162.
-Number of passengers waiting: 6.
-Number of passengers on trains: 166.
------
------
-Current Time: 163.
-Number of passengers waiting: 6.
-Number of passengers on trains: 166.
------
-	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 3
 	Created passenger at station 0 heading to 1
 -----
-Current Time: 164.
-Number of passengers waiting: 10.
-Number of passengers on trains: 166.
+Current Time: 161.
+Number of passengers waiting: 9.
+Number of passengers on trains: 196.
 -----
-	Created passenger at station 0 heading to 3
-	Created passenger at station 2 heading to 4
 	Created passenger at station 2 heading to 3
+	Created passenger at station 0 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+-----
+Current Time: 162.
+Number of passengers waiting: 13.
+Number of passengers on trains: 196.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 3
+	Train 14 unloaded 6 passengers at station 3
+		loaded 3 passengers; Space left 43
+	Train 16 unloaded 4 passengers at station 1
+		loaded 6 passengers; Space left 37
+-----
+Current Time: 163.
+Number of passengers waiting: 9.
+Number of passengers on trains: 195.
+-----
+-----
+Current Time: 164.
+Number of passengers waiting: 9.
+Number of passengers on trains: 195.
+-----
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
 	Created passenger at station 1 heading to 2
 -----
 Current Time: 165.
-Number of passengers waiting: 14.
-Number of passengers on trains: 166.
+Number of passengers waiting: 12.
+Number of passengers on trains: 195.
 -----
+	Created passenger at station 1 heading to 3
 	Created passenger at station 2 heading to 3
-	Train 16 unloaded 4 passengers at station 2
-		loaded 4 passengers; Space left 35
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 4
 -----
 Current Time: 166.
-Number of passengers waiting: 11.
-Number of passengers on trains: 166.
+Number of passengers waiting: 17.
+Number of passengers on trains: 195.
 -----
-	Created passenger at station 0 heading to 4
 	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 1
 	Created passenger at station 0 heading to 2
-	Train 17 unloaded 1 passengers at station 1
-		loaded 6 passengers; Space left 36
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
 -----
 Current Time: 167.
-Number of passengers waiting: 9.
-Number of passengers on trains: 171.
+Number of passengers waiting: 22.
+Number of passengers on trains: 195.
 -----
-	Created passenger at station 0 heading to 1
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 3
 	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 168.
-Number of passengers waiting: 14.
-Number of passengers on trains: 171.
+Number of passengers waiting: 27.
+Number of passengers on trains: 195.
 -----
+	Created passenger at station 1 heading to 2
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 3
+	Train 16 unloaded 4 passengers at station 2
+		loaded 7 passengers; Space left 34
 -----
 Current Time: 169.
-Number of passengers waiting: 14.
-Number of passengers on trains: 171.
+Number of passengers waiting: 24.
+Number of passengers on trains: 198.
 -----
 	Created train 18
-	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 3
+	Created passenger at station 1 heading to 3
 	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
 	Train 18 unloaded 0 passengers at station 0
-		loaded 15 passengers; Space left 35
+		loaded 16 passengers; Space left 34
 -----
 Current Time: 170.
-Number of passengers waiting: 4.
-Number of passengers on trains: 186.
+Number of passengers waiting: 12.
+Number of passengers on trains: 214.
 -----
-	Created passenger at station 1 heading to 4
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 1
 -----
 Current Time: 171.
-Number of passengers waiting: 7.
-Number of passengers on trains: 186.
+Number of passengers waiting: 12.
+Number of passengers on trains: 214.
 -----
-	Created passenger at station 0 heading to 3
-	Created passenger at station 1 heading to 2
-	Created passenger at station 1 heading to 4
-	Created passenger at station 1 heading to 4
-	Train 16 unloaded 8 passengers at station 3
-		loaded 1 passengers; Space left 42
 -----
 Current Time: 172.
-Number of passengers waiting: 10.
-Number of passengers on trains: 179.
+Number of passengers waiting: 12.
+Number of passengers on trains: 214.
 -----
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 4
-	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 3
 	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 4
+	Created passenger at station 3 heading to 4
+	Train 15 unloaded 11 passengers at station 3
+		loaded 4 passengers; Space left 40
+	Train 17 unloaded 4 passengers at station 1
+		loaded 9 passengers; Space left 30
 -----
 Current Time: 173.
-Number of passengers waiting: 14.
-Number of passengers on trains: 179.
+Number of passengers waiting: 3.
+Number of passengers on trains: 212.
 -----
+	Created passenger at station 0 heading to 1
 	Created passenger at station 2 heading to 3
-	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 3
 -----
 Current Time: 174.
-Number of passengers waiting: 16.
-Number of passengers on trains: 179.
+Number of passengers waiting: 7.
+Number of passengers on trains: 212.
 -----
 -----
 Current Time: 175.
-Number of passengers waiting: 16.
-Number of passengers on trains: 179.
+Number of passengers waiting: 7.
+Number of passengers on trains: 212.
 -----
-	Created passenger at station 2 heading to 3
-	Train 17 unloaded 4 passengers at station 2
-		loaded 6 passengers; Space left 34
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 1
 -----
 Current Time: 176.
-Number of passengers waiting: 11.
-Number of passengers on trains: 181.
+Number of passengers waiting: 12.
+Number of passengers on trains: 212.
 -----
-	Train 18 unloaded 5 passengers at station 1
-		loaded 7 passengers; Space left 33
 -----
 Current Time: 177.
-Number of passengers waiting: 4.
-Number of passengers on trains: 183.
+Number of passengers waiting: 12.
+Number of passengers on trains: 212.
 -----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 178.
-Number of passengers waiting: 4.
-Number of passengers on trains: 183.
+Number of passengers waiting: 17.
+Number of passengers on trains: 212.
 -----
-	Created passenger at station 1 heading to 2
 	Created passenger at station 1 heading to 3
+	Created passenger at station 2 heading to 4
+	Train 17 unloaded 9 passengers at station 2
+		loaded 2 passengers; Space left 37
 -----
 Current Time: 179.
-Number of passengers waiting: 6.
-Number of passengers on trains: 183.
+Number of passengers waiting: 17.
+Number of passengers on trains: 205.
 -----
 	Created train 19
-	Created passenger at station 2 heading to 4
-	Created passenger at station 3 heading to 4
 	Created passenger at station 1 heading to 3
-	Created passenger at station 0 heading to 2
-	Created passenger at station 2 heading to 3
-	Train 19 unloaded 0 passengers at station 0
-		loaded 5 passengers; Space left 45
------
-Current Time: 180.
-Number of passengers waiting: 6.
-Number of passengers on trains: 188.
------
-	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 1
------
-Current Time: 181.
-Number of passengers waiting: 8.
-Number of passengers on trains: 188.
------
-	Created passenger at station 3 heading to 4
-	Created passenger at station 3 heading to 4
-	Created passenger at station 0 heading to 2
-	Train 17 unloaded 12 passengers at station 3
-		loaded 4 passengers; Space left 42
------
-Current Time: 182.
-Number of passengers waiting: 7.
-Number of passengers on trains: 180.
------
 	Created passenger at station 1 heading to 4
------
-Current Time: 183.
-Number of passengers waiting: 8.
-Number of passengers on trains: 180.
------
 	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 3
------
-Current Time: 184.
-Number of passengers waiting: 10.
-Number of passengers on trains: 180.
------
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 4
------
-Current Time: 185.
-Number of passengers waiting: 12.
-Number of passengers on trains: 180.
------
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 4
-	Created passenger at station 0 heading to 3
-	Train 18 unloaded 6 passengers at station 2
-		loaded 3 passengers; Space left 36
------
-Current Time: 186.
-Number of passengers waiting: 12.
-Number of passengers on trains: 177.
------
-	Created passenger at station 1 heading to 4
-	Train 19 unloaded 1 passengers at station 1
-		loaded 10 passengers; Space left 36
------
-Current Time: 187.
-Number of passengers waiting: 3.
-Number of passengers on trains: 186.
------
-	Created passenger at station 0 heading to 1
------
-Current Time: 188.
-Number of passengers waiting: 4.
-Number of passengers on trains: 186.
------
-	Created passenger at station 2 heading to 3
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 3
------
-Current Time: 189.
-Number of passengers waiting: 7.
-Number of passengers on trains: 186.
------
-	Created train 20
-	Train 20 unloaded 0 passengers at station 0
+	Train 19 unloaded 0 passengers at station 0
 		loaded 6 passengers; Space left 44
 -----
-Current Time: 190.
-Number of passengers waiting: 1.
-Number of passengers on trains: 192.
+Current Time: 180.
+Number of passengers waiting: 14.
+Number of passengers on trains: 211.
 -----
-	Created passenger at station 2 heading to 3
 	Created passenger at station 1 heading to 2
-	Created passenger at station 2 heading to 4
-	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 2 heading to 3
 -----
-Current Time: 191.
-Number of passengers waiting: 5.
-Number of passengers on trains: 192.
+Current Time: 181.
+Number of passengers waiting: 17.
+Number of passengers on trains: 211.
 -----
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 1
-	Created passenger at station 0 heading to 1
-	Train 18 unloaded 4 passengers at station 3
-		loaded 0 passengers; Space left 40
------
-Current Time: 192.
-Number of passengers waiting: 8.
-Number of passengers on trains: 188.
------
+	Created passenger at station 1 heading to 4
+	Created passenger at station 2 heading to 3
 	Created passenger at station 0 heading to 4
-	Created passenger at station 0 heading to 4
-	Created passenger at station 2 heading to 4
+	Created passenger at station 2 heading to 3
 -----
-Current Time: 193.
+Current Time: 182.
+Number of passengers waiting: 21.
+Number of passengers on trains: 211.
+-----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 4
+	Created passenger at station 2 heading to 3
+	Train 16 unloaded 9 passengers at station 3
+		loaded 4 passengers; Space left 39
+	Train 18 unloaded 3 passengers at station 1
+		loaded 13 passengers; Space left 24
+-----
+Current Time: 183.
+Number of passengers waiting: 7.
+Number of passengers on trains: 216.
+-----
+	Created passenger at station 3 heading to 4
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 184.
 Number of passengers waiting: 11.
-Number of passengers on trains: 188.
+Number of passengers on trains: 216.
 -----
-	Created passenger at station 2 heading to 4
-	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 4
 	Created passenger at station 0 heading to 2
 -----
-Current Time: 194.
-Number of passengers waiting: 14.
-Number of passengers on trains: 188.
+Current Time: 185.
+Number of passengers waiting: 13.
+Number of passengers on trains: 216.
 -----
+-----
+Current Time: 186.
+Number of passengers waiting: 13.
+Number of passengers on trains: 216.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 4
+-----
+Current Time: 187.
+Number of passengers waiting: 17.
+Number of passengers on trains: 216.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 0 heading to 3
 	Created passenger at station 3 heading to 4
 	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 4
 -----
-Current Time: 195.
-Number of passengers waiting: 16.
-Number of passengers on trains: 188.
+Current Time: 188.
+Number of passengers waiting: 22.
+Number of passengers on trains: 216.
 -----
 	Created passenger at station 0 heading to 3
-	Train 19 unloaded 4 passengers at station 2
-		loaded 6 passengers; Space left 34
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 3
+	Train 18 unloaded 11 passengers at station 2
+		loaded 6 passengers; Space left 29
+-----
+Current Time: 189.
+Number of passengers waiting: 19.
+Number of passengers on trains: 211.
+-----
+	Created train 20
+	Created passenger at station 3 heading to 4
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 1
+	Train 20 unloaded 0 passengers at station 0
+		loaded 14 passengers; Space left 36
+-----
+Current Time: 190.
+Number of passengers waiting: 10.
+Number of passengers on trains: 225.
+-----
+	Created passenger at station 1 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 191.
+Number of passengers waiting: 15.
+Number of passengers on trains: 225.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 1 heading to 4
+	Created passenger at station 3 heading to 4
+-----
+Current Time: 192.
+Number of passengers waiting: 18.
+Number of passengers on trains: 225.
+-----
+	Created passenger at station 2 heading to 3
+	Created passenger at station 1 heading to 2
+	Train 17 unloaded 6 passengers at station 3
+		loaded 4 passengers; Space left 39
+	Train 19 unloaded 3 passengers at station 1
+		loaded 12 passengers; Space left 35
+-----
+Current Time: 193.
+Number of passengers waiting: 4.
+Number of passengers on trains: 232.
+-----
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 4
+-----
+Current Time: 194.
+Number of passengers waiting: 6.
+Number of passengers on trains: 232.
+-----
+	Created passenger at station 0 heading to 1
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 1 heading to 3
+	Created passenger at station 3 heading to 4
+-----
+Current Time: 195.
+Number of passengers waiting: 11.
+Number of passengers on trains: 232.
+-----
+	Created passenger at station 0 heading to 2
+	Created passenger at station 1 heading to 4
+	Created passenger at station 0 heading to 2
+	Created passenger at station 2 heading to 4
 -----
 Current Time: 196.
-Number of passengers waiting: 11.
-Number of passengers on trains: 190.
+Number of passengers waiting: 15.
+Number of passengers on trains: 232.
 -----
-	Created passenger at station 1 heading to 2
 	Created passenger at station 2 heading to 3
-	Created passenger at station 3 heading to 4
-	Created passenger at station 1 heading to 3
-	Created passenger at station 1 heading to 3
-	Train 20 unloaded 3 passengers at station 1
-		loaded 4 passengers; Space left 43
+	Created passenger at station 2 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 4
+	Created passenger at station 0 heading to 2
 -----
 Current Time: 197.
-Number of passengers waiting: 12.
-Number of passengers on trains: 191.
+Number of passengers waiting: 20.
+Number of passengers on trains: 232.
 -----
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 2
+	Created passenger at station 0 heading to 3
+	Created passenger at station 1 heading to 2
 -----
 Current Time: 198.
-Number of passengers waiting: 12.
-Number of passengers on trains: 191.
+Number of passengers waiting: 25.
+Number of passengers on trains: 232.
 -----
+	Train 19 unloaded 5 passengers at station 2
+		loaded 6 passengers; Space left 34
 -----
 Current Time: 199.
+Number of passengers waiting: 19.
+Number of passengers on trains: 233.
+-----
+	Created train 21
+	Created passenger at station 3 heading to 4
+	Created passenger at station 1 heading to 3
+	Created passenger at station 0 heading to 4
+	Created passenger at station 1 heading to 2
+	Created passenger at station 0 heading to 2
+	Train 21 unloaded 0 passengers at station 0
+		loaded 12 passengers; Space left 38
+-----
+Current Time: 200.
 Number of passengers waiting: 12.
-Number of passengers on trains: 191.
+Number of passengers on trains: 245.
 -----
 Final Report
-The total number of passengers is 478
-The number of passengers currently on a train 191
-The number of passengers delivered is 275
+The total number of passengers is 552
+The number of passengers currently on a train 245
+The number of passengers delivered is 295
 The average wait time for passengers that have boarded is
-92.21244635193133
+105.3
 The average wait time for passengers that have not yet boarded is
-199.33333333333334
+199.5
 */

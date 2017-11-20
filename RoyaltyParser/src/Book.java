@@ -35,6 +35,10 @@ public class Book {
 			Royalty = bookData.get("Royalty");
 		}
 		
+		public String getASIN() {
+			return ASIN;
+		}
+		
 		public String toString() {
 			return ("Title: " + Title + " " +
 				    "Author: " + Author + " " + 
