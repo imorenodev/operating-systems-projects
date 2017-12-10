@@ -14,7 +14,6 @@ public class PCB implements Comparable<PCB>
 	private int		timeWaiting;
 	private int		memBase;
 	private int		memLimit;
-	private DiskScheduler diskRequest;
 	
 	private static int	PCB__K;
 	private Random random__X ;
@@ -34,8 +33,7 @@ public class PCB implements Comparable<PCB>
 		CPU_max		= random__X.nextInt(100) + 1 ;	// Assign max to be between 1 and 1000
 		timeWaiting	= 0 ;
 		memBase = 0;
-		memLimit = random__X.nextInt(51) + 25; // Assign memory needed between 25-75
-		diskRequest = null;
+		memLimit = random__X.nextInt(50) + 26; // Assign memory needed between 25-75
 	}	
 
 	// Memory tracking Constructor
@@ -51,7 +49,6 @@ public class PCB implements Comparable<PCB>
 		timeWaiting	= 0;
 		memBase 		= 0;
 		memLimit 	= m0;
-		diskRequest = null;
 	}	
 
 	public int compareTo (PCB pcb0) 
@@ -160,16 +157,5 @@ public class PCB implements Comparable<PCB>
 	public void set_memLimit(int m0)
 	{
 		memLimit = m0;
-	}
-	
-	public void setDiskRequest(DiskScheduler req) {
-		if (req != null) 
-			diskRequest = req;
-		else
-			diskRequest = null;
-	}
-	
-	public DiskScheduler getDiskRequest() {
-		return diskRequest;
 	}
 }

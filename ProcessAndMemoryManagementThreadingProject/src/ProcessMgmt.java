@@ -9,9 +9,9 @@ import java.io.IOException;
 /**
  * @purpose	ProcessMgmt program demonstrates a Process Management program to manage the process Ready, Waiting, 
  * 			and Running queues and prioritize the processes based on CPU and I/O events, also incorporates 
- * 			memory allocation management, disk scheduling, and threading.
+ * 			memory allocation management.
  * @author 	Ian Moreno
- * @date		12/09/2017
+ * @date		10/21/2017
  *
  */
 
@@ -128,7 +128,7 @@ public class ProcessMgmt
 					//#230 Set the state to "Ready" from "Running"
 				
 					switch (event__X)
-					{ // TERMINATION
+					{
 						case 1 :
 							System.out.println("\n*****\t\t\tProcess Completed\t\t\t*****CPU event*****");   	  
 							System.out.println(PCB_Running.showPCB());		
@@ -144,29 +144,28 @@ public class ProcessMgmt
 
 							break;
 						case 2 :
-						{ // INTERRUPT
+						{
 							//#240 Add to QReady	
 							PCB_Running.set_state("Ready");
 							QReadyList.addFirst(PCB_Running); // High Priority
 							break;
 						}				
 						case 3 :
-						{ // PAGE FAULT
+						{	
 							//#242 Add to QReady
 							PCB_Running.set_state("Ready");
 							QReadyList.add(QReadyList.size()/2, PCB_Running); // Medium Priority
 							break;
 						}
 						case 4 :
-						{ // BLOCK I/O
+						{
 							//#244 Add to QWait	
 							PCB_Running.set_state("Waiting");
-							PCB_Running.setDiskRequest(new DiskScheduler());
 							QWaitingList.add(PCB_Running);
 							break;
 						}
 						default :
-						{ // OTHER
+						{
 							//#246 Add to QReady
 							PCB_Running.set_state("Ready");
 							QReadyList.addLast(PCB_Running); // Low Priority
@@ -186,16 +185,6 @@ public class ProcessMgmt
 					PCB_Temp = QWaitingList.removeFirst();
 					PCB_Temp.set_state("Ready");
 					QReadyList.addFirst(PCB_Temp);	
-					
-					System.out.println("\n\n*****\t\t\tPCB Disk Request Finished\tRemove From QWait and Add to Ready Queue\t\t\t*****");   
-					System.out.println(PCB_Temp.showPCB());
-					System.out.println(PCB_Temp.getDiskRequest().toString());
-					writer.write("\n\n*****\t\t\tPCB Disk Request Finished\tRemove From QWait and Add to Ready Queue\t\t\t*****");   
-					writer.newLine();
-					writer.write(PCB_Temp.showPCB());
-					writer.newLine();
-					writer.write(PCB_Temp.getDiskRequest().toString());
-					writer.newLine();
 				}
 				
 				System.out.println("\n*****\t\t\tContext Switch\tReady Queue\t\t\t*****");   
