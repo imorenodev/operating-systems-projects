@@ -1,547 +1,249 @@
 
 *****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 0	CPU max: 82	Wait: 0		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 0	CPU max: 60	Wait: 0		memBase: 0	memLimit: 67
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 59	Wait: 0		memBase: 0	memLimit: 47
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 70	Wait: 0		memBase: 0	memLimit: 45
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 0		memBase: 0	memLimit: 49
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 0	CPU max: 32	Wait: 0		memBase: 0	memLimit: 70
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 0	CPU max: 18	Wait: 0		memBase: 0	memLimit: 27
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 20	Wait: 0		memBase: 0	memLimit: 56
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 0		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 0		memBase: 0	memLimit: 69
 
------			Added base:0 limit: 72 to Used Memory
-
-*****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 82	Wait: 0		memBase: 0	memLimit: 72
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 0	CPU max: 60	Wait: 11		memBase: 0	memLimit: 67
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 59	Wait: 11		memBase: 0	memLimit: 47
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 70	Wait: 11		memBase: 0	memLimit: 45
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 11		memBase: 0	memLimit: 49
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 82	Wait: 0		memBase: 0	memLimit: 72
-
------			Added base:72 limit: 139 to Used Memory
+-----			Added base:0 limit: 70 to Used Memory
 
 *****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 11		memBase: 72	memLimit: 139
+state: Running	ID: 5	K: 	priority: 0	CPU used: 15	CPU max: 32	Wait: 0		memBase: 0	memLimit: 70
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 59	Wait: 18		memBase: 0	memLimit: 47
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 70	Wait: 18		memBase: 0	memLimit: 45
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 18		memBase: 0	memLimit: 49
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 11		memBase: 72	memLimit: 139
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 0	CPU max: 18	Wait: 15		memBase: 0	memLimit: 27
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 20	Wait: 15		memBase: 0	memLimit: 56
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 15	CPU max: 32	Wait: 0		memBase: 0	memLimit: 70
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 15		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 15		memBase: 0	memLimit: 69
 
 *****			Waiting Queue			*****
-state: Waiting	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 82	Wait: 7		memBase: 0	memLimit: 72
 
------			Added base:139 limit: 186 to Used Memory
+-----			Added base:70 limit: 97 to Used Memory
 
 *****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 18		memBase: 139	memLimit: 186
+state: Running	ID: 4	K: 	priority: 0	CPU used: 16	CPU max: 18	Wait: 15		memBase: 70	memLimit: 97
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 70	Wait: 29		memBase: 0	memLimit: 45
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 29		memBase: 0	memLimit: 49
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 22		memBase: 72	memLimit: 139
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 18		memBase: 139	memLimit: 186
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 0	CPU max: 20	Wait: 31		memBase: 0	memLimit: 56
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 15	CPU max: 32	Wait: 16		memBase: 0	memLimit: 70
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 31		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 31		memBase: 0	memLimit: 69
 
 *****			Waiting Queue			*****
-state: Waiting	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 82	Wait: 18		memBase: 0	memLimit: 72
+state: Waiting	ID: 4	K: 	priority: 0	CPU used: 16	CPU max: 18	Wait: 15		memBase: 70	memLimit: 97
 
------			Added base:186 limit: 231 to Used Memory
+-----			Added base:97 limit: 153 to Used Memory
 
 *****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 20	CPU max: 70	Wait: 29		memBase: 186	memLimit: 231
+state: Running	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 31		memBase: 97	memLimit: 153
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 11	CPU max: 82	Wait: 38		memBase: 0	memLimit: 72
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 20	CPU max: 70	Wait: 29		memBase: 186	memLimit: 231
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 49		memBase: 0	memLimit: 49
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 42		memBase: 72	memLimit: 139
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 38		memBase: 139	memLimit: 186
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 15	CPU max: 32	Wait: 32		memBase: 0	memLimit: 70
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 47		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 47		memBase: 0	memLimit: 69
 
 *****			Waiting Queue			*****
+state: Waiting	ID: 4	K: 	priority: 0	CPU used: 16	CPU max: 18	Wait: 31		memBase: 70	memLimit: 97
+state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 31		memBase: 97	memLimit: 153
 
 *****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 38		memBase: 0	memLimit: 72
+state: Running	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 32		memBase: 0	memLimit: 70
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 20	CPU max: 70	Wait: 44		memBase: 186	memLimit: 231
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 64		memBase: 0	memLimit: 49
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 57		memBase: 72	memLimit: 139
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 53		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 38		memBase: 0	memLimit: 72
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 16	CPU max: 18	Wait: 39		memBase: 70	memLimit: 97
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 55		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 55		memBase: 0	memLimit: 69
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 32		memBase: 0	memLimit: 70
 
 *****			Waiting Queue			*****
+state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 39		memBase: 97	memLimit: 153
 
 *****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 33	CPU max: 70	Wait: 44		memBase: 186	memLimit: 231
+state: Running	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 39		memBase: 70	memLimit: 97
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 77		memBase: 0	memLimit: 49
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 33	CPU max: 70	Wait: 44		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 66		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 51		memBase: 0	memLimit: 72
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 0	CPU max: 33	Wait: 56		memBase: 0	memLimit: 29
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 56		memBase: 0	memLimit: 69
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 33		memBase: 0	memLimit: 70
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 39		memBase: 70	memLimit: 97
 
 *****			Waiting Queue			*****
-##### No Memory Available for Process:1	needing:49
+state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 40		memBase: 97	memLimit: 153
 
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 7	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 33	CPU max: 70	Wait: 44		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 66		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 51		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 77		memBase: 0	memLimit: 49
-
-*****			Waiting Queue			*****
+-----			Added base:153 limit: 182 to Used Memory
 
 *****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 24	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
+state: Running	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 56		memBase: 153	memLimit: 182
 
 *****			Context Switch	Ready Queue			*****
 
 *****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 24	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 33	CPU max: 70	Wait: 61		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 83		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 68		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 94		memBase: 0	memLimit: 49
+state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 47	Wait: 61		memBase: 0	memLimit: 69
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 38		memBase: 0	memLimit: 70
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 44		memBase: 70	memLimit: 97
 
 *****			Waiting Queue			*****
+state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 45		memBase: 97	memLimit: 153
+state: Waiting	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 56		memBase: 153	memLimit: 182
+
+-----			Added base:182 limit: 251 to Used Memory
 
 *****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 27	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 33	CPU max: 70	Wait: 64		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 86		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 71		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 97		memBase: 0	memLimit: 49
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 4	K: 	priority: 0	CPU used: 27	CPU max: 60	Wait: 70		memBase: 72	memLimit: 139
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 64		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 11	CPU max: 59	Wait: 91		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 76		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 102		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 64		memBase: 186	memLimit: 231
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 4	K: 	priority: 0	CPU used: 27	CPU max: 60	Wait: 75		memBase: 72	memLimit: 139
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 91		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 26	CPU max: 82	Wait: 77		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 103		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 65		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 91		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 4	K: 	priority: 0	CPU used: 27	CPU max: 60	Wait: 76		memBase: 72	memLimit: 139
-
-*****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 77		memBase: 0	memLimit: 72
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 27	CPU max: 60	Wait: 85		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 112		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 74		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 100		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 77		memBase: 0	memLimit: 72
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 85		memBase: 72	memLimit: 139
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 128		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 90		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 116		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 93		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 85		memBase: 72	memLimit: 139
-
-*****			Waiting Queue			*****
-##### No Memory Available for Process:1	needing:49
-
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 38	CPU max: 70	Wait: 90		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 116		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 93		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 85		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 128		memBase: 0	memLimit: 49
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 90		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 12	CPU max: 59	Wait: 120		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 97		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 89		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 132		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 90		memBase: 186	memLimit: 231
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 17	CPU max: 59	Wait: 120		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 17	CPU max: 59	Wait: 120		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 102		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 94		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 137		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 95		memBase: 186	memLimit: 231
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 120		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 35	CPU max: 82	Wait: 109		memBase: 0	memLimit: 72
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 101		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 144		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 102		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 120		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 109		memBase: 0	memLimit: 72
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 43	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 154		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 112		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 130		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 109		memBase: 0	memLimit: 72
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 56	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 167		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 125		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 143		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 122		memBase: 0	memLimit: 72
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 4	K: 	priority: 0	CPU used: 56	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-##### No Memory Available for Process:1	needing:49
-
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 4	K: 	priority: 0	CPU used: 56	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 125		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 143		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 122		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 167		memBase: 0	memLimit: 49
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-
-*****			Process Completed			*****
-state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-
------			Added base:72 limit: 139 to Open Memory
-@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 72	memLimit: 139
-
-@0500 QMemOpen sorted	state: @	ID: 0	K: 	priority: 0	CPU used: 0	CPU max: 0	Wait: 0		memBase: 231	memLimit: 256
-
-@0200Used	state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 128		memBase: 0	memLimit: 72
-
-@0200Used	state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 149		memBase: 139	memLimit: 186
-
-@0200Used	state: Ready	ID: 2	K: 	priority: 0	CPU used: 42	CPU max: 70	Wait: 131		memBase: 186	memLimit: 231
-
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 131		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 24	CPU max: 59	Wait: 152		memBase: 139	memLimit: 186
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 131		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 176		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 131		memBase: 186	memLimit: 231
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 152		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 45	CPU max: 82	Wait: 143		memBase: 0	memLimit: 72
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 188		memBase: 0	memLimit: 49
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 143		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 152		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 65	CPU max: 82	Wait: 143		memBase: 0	memLimit: 72
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 0	CPU max: 35	Wait: 208		memBase: 0	memLimit: 49
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 65	CPU max: 82	Wait: 143		memBase: 0	memLimit: 72
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 163		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 172		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
------			Added base:72 limit: 121 to Used Memory
-
-*****			Running Queue			*****
-state: Running	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 208		memBase: 72	memLimit: 121
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 5	K: 	priority: 0	CPU used: 65	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 173		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 182		memBase: 139	memLimit: 186
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 208		memBase: 72	memLimit: 121
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
+state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 251
 
 *****			Process Completed			*****CPU event*****
-state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
+state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 251
 
------			Added base:0 limit: 72 to Open Memory
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
+-----			Added base:182 limit: 251 to Open Memory
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 251
 
-@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 121	memLimit: 139
-
-@0500 QMemOpen sorted	state: @	ID: 0	K: 	priority: 0	CPU used: 0	CPU max: 0	Wait: 0		memBase: 231	memLimit: 256
-
-@0200Used	state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 185		memBase: 139	memLimit: 186
-
-@0200Used	state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 176		memBase: 186	memLimit: 231
-
-@0200Used	state: Ready	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 211		memBase: 72	memLimit: 121
-
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 45	CPU max: 70	Wait: 176		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 185		memBase: 139	memLimit: 186
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 211		memBase: 72	memLimit: 121
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 70	Wait: 176		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 36	CPU max: 59	Wait: 187		memBase: 139	memLimit: 186
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 213		memBase: 72	memLimit: 121
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 70	Wait: 176		memBase: 186	memLimit: 231
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 187		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 10	CPU max: 35	Wait: 221		memBase: 72	memLimit: 121
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 187		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 70	Wait: 184		memBase: 186	memLimit: 231
-
-*****			Running Queue			*****
-state: Running	ID: 1	K: 	priority: 0	CPU used: 21	CPU max: 35	Wait: 221		memBase: 72	memLimit: 121
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 70	Wait: 195		memBase: 186	memLimit: 231
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 21	CPU max: 35	Wait: 221		memBase: 72	memLimit: 121
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 198		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 48	CPU max: 70	Wait: 195		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 21	CPU max: 35	Wait: 222		memBase: 72	memLimit: 121
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 48	CPU max: 70	Wait: 195		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 199		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 1	K: 	priority: 0	CPU used: 32	CPU max: 35	Wait: 222		memBase: 72	memLimit: 121
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 48	CPU max: 70	Wait: 206		memBase: 186	memLimit: 231
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 210		memBase: 139	memLimit: 186
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 32	CPU max: 35	Wait: 222		memBase: 72	memLimit: 121
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 52	CPU max: 70	Wait: 206		memBase: 186	memLimit: 231
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 44	CPU max: 59	Wait: 214		memBase: 139	memLimit: 186
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 32	CPU max: 35	Wait: 226		memBase: 72	memLimit: 121
-
-*****			Waiting Queue			*****
-state: Waiting	ID: 2	K: 	priority: 0	CPU used: 52	CPU max: 70	Wait: 206		memBase: 186	memLimit: 231
-
-*****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 57	CPU max: 59	Wait: 214		memBase: 139	memLimit: 186
-
-*****			Context Switch	Ready Queue			*****
-
-*****			Ready Queue			*****
-state: Ready	ID: 2	K: 	priority: 0	CPU used: 52	CPU max: 70	Wait: 219		memBase: 186	memLimit: 231
-state: Ready	ID: 1	K: 	priority: 0	CPU used: 32	CPU max: 35	Wait: 239		memBase: 72	memLimit: 121
-state: Ready	ID: 3	K: 	priority: 0	CPU used: 57	CPU max: 59	Wait: 214		memBase: 139	memLimit: 186
-
-*****			Waiting Queue			*****
-
-*****			Running Queue			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 231
-
-*****			Process Completed			*****
-state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 231
-
------			Added base:186 limit: 231 to Open Memory
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
-
-@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 121	memLimit: 139
-
-@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 231
-
-@0500 QMemOpen sorted	state: @	ID: 0	K: 	priority: 0	CPU used: 0	CPU max: 0	Wait: 0		memBase: 231	memLimit: 256
+@0500 QMemOpen sorted	state: @	ID: 0	K: 	priority: 0	CPU used: 0	CPU max: 0	Wait: 0		memBase: 251	memLimit: 256
 
 
 -----			Defragmented QMemOpen
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
 
-@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 121	memLimit: 139
+@0200Used	state: Ready	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
 
-@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 256
+@0200Used	state: Ready	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 55		memBase: 70	memLimit: 97
 
-@0200Used	state: Ready	ID: 3	K: 	priority: 0	CPU used: 57	CPU max: 59	Wait: 233		memBase: 139	memLimit: 186
+@0200Used	state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 56		memBase: 97	memLimit: 153
 
-@0200Used	state: Ready	ID: 1	K: 	priority: 0	CPU used: 32	CPU max: 35	Wait: 258		memBase: 72	memLimit: 121
+@0200Used	state: Waiting	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 67		memBase: 153	memLimit: 182
+
+
+*****			Context Switch	Ready Queue			*****
+
+*****			Ready Queue			*****
+state: Ready	ID: 5	K: 	priority: 0	CPU used: 23	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
+state: Ready	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 55		memBase: 70	memLimit: 97
+
+*****			Waiting Queue			*****
+state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 56		memBase: 97	memLimit: 153
+state: Waiting	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 67		memBase: 153	memLimit: 182
+
+*****			Running Queue			*****
+state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
+
+*****			Process Completed			*****
+state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
+
+-----			Added base:0 limit: 70 to Open Memory
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
+
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
+
+@0200Used	state: Ready	ID: 4	K: 	priority: 0	CPU used: 17	CPU max: 18	Wait: 64		memBase: 70	memLimit: 97
+
+@0200Used	state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 65		memBase: 97	memLimit: 153
+
+@0200Used	state: Waiting	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 76		memBase: 153	memLimit: 182
 
 
 *****			Running Queue			*****
-state: Running	ID: 1	K: 	priority: 0	CPU used: 38	CPU max: 35	Wait: 258		memBase: 72	memLimit: 121
+state: Running	ID: 4	K: 	priority: 0	CPU used: 33	CPU max: 18	Wait: 64		memBase: 70	memLimit: 97
 
 *****			Process Completed			*****
-state: Running	ID: 1	K: 	priority: 0	CPU used: 38	CPU max: 35	Wait: 258		memBase: 72	memLimit: 121
+state: Running	ID: 4	K: 	priority: 0	CPU used: 33	CPU max: 18	Wait: 64		memBase: 70	memLimit: 97
 
------			Added base:72 limit: 121 to Open Memory
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 72
+-----			Added base:70 limit: 97 to Open Memory
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 70
 
-@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 38	CPU max: 35	Wait: 258		memBase: 72	memLimit: 121
+@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 33	CPU max: 18	Wait: 64		memBase: 70	memLimit: 97
 
-@0500 QMemOpen sorted	state: Running	ID: 4	K: 	priority: 0	CPU used: 62	CPU max: 60	Wait: 111		memBase: 121	memLimit: 139
-
-@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 256
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
 
 
 -----			Defragmented QMemOpen
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 139
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 97
 
-@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 256
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
 
-@0200Used	state: Ready	ID: 3	K: 	priority: 0	CPU used: 57	CPU max: 59	Wait: 239		memBase: 139	memLimit: 186
+@0200Used	state: Waiting	ID: 3	K: 	priority: 0	CPU used: 16	CPU max: 20	Wait: 81		memBase: 97	memLimit: 153
+
+@0200Used	state: Waiting	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 92		memBase: 153	memLimit: 182
 
 
 *****			Running Queue			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 66	CPU max: 59	Wait: 239		memBase: 139	memLimit: 186
+state: Running	ID: 3	K: 	priority: 0	CPU used: 17	CPU max: 20	Wait: 81		memBase: 97	memLimit: 153
+
+*****			Context Switch	Ready Queue			*****
+
+*****			Ready Queue			*****
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 5	CPU max: 33	Wait: 93		memBase: 153	memLimit: 182
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 17	CPU max: 20	Wait: 81		memBase: 97	memLimit: 153
+
+*****			Waiting Queue			*****
+
+*****			Running Queue			*****
+state: Running	ID: 2	K: 	priority: 0	CPU used: 24	CPU max: 33	Wait: 93		memBase: 153	memLimit: 182
+
+*****			Context Switch	Ready Queue			*****
+
+*****			Ready Queue			*****
+state: Ready	ID: 3	K: 	priority: 0	CPU used: 17	CPU max: 20	Wait: 100		memBase: 97	memLimit: 153
+
+*****			Waiting Queue			*****
+state: Waiting	ID: 2	K: 	priority: 0	CPU used: 24	CPU max: 33	Wait: 93		memBase: 153	memLimit: 182
+
+*****			Running Queue			*****
+state: Running	ID: 3	K: 	priority: 0	CPU used: 27	CPU max: 20	Wait: 100		memBase: 97	memLimit: 153
 
 *****			Process Completed			*****
-state: Running	ID: 3	K: 	priority: 0	CPU used: 66	CPU max: 59	Wait: 239		memBase: 139	memLimit: 186
+state: Running	ID: 3	K: 	priority: 0	CPU used: 27	CPU max: 20	Wait: 100		memBase: 97	memLimit: 153
 
------			Added base:139 limit: 186 to Open Memory
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 139
+-----			Added base:97 limit: 153 to Open Memory
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 97
 
-@0500 QMemOpen sorted	state: Running	ID: 3	K: 	priority: 0	CPU used: 66	CPU max: 59	Wait: 239		memBase: 139	memLimit: 186
+@0500 QMemOpen sorted	state: Running	ID: 3	K: 	priority: 0	CPU used: 27	CPU max: 20	Wait: 100		memBase: 97	memLimit: 153
 
-@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 71	CPU max: 70	Wait: 219		memBase: 186	memLimit: 256
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
 
 
 -----			Defragmented QMemOpen
-@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 68	CPU max: 82	Wait: 153		memBase: 0	memLimit: 256
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 153
+
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
+
+@0200Used	state: Waiting	ID: 2	K: 	priority: 0	CPU used: 24	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+
+*****			Running Queue			*****
+state: Running	ID: 2	K: 	priority: 0	CPU used: 31	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+*****			Context Switch	Ready Queue			*****
+
+*****			Ready Queue			*****
+state: Ready	ID: 2	K: 	priority: 0	CPU used: 31	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+*****			Waiting Queue			*****
+
+*****			Running Queue			*****
+state: Running	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+*****			Process Completed			*****
+state: Running	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+-----			Added base:153 limit: 182 to Open Memory
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 153
+
+@0500 QMemOpen sorted	state: Running	ID: 2	K: 	priority: 0	CPU used: 47	CPU max: 33	Wait: 103		memBase: 153	memLimit: 182
+
+@0500 QMemOpen sorted	state: Running	ID: 1	K: 	priority: 0	CPU used: 11	CPU max: 47	Wait: 61		memBase: 182	memLimit: 256
+
+
+-----			Defragmented QMemOpen
+@0500 QMemOpen sorted	state: Running	ID: 5	K: 	priority: 0	CPU used: 32	CPU max: 32	Wait: 49		memBase: 0	memLimit: 256
 
